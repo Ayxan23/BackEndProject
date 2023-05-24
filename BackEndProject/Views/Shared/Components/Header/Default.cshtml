@@ -1,0 +1,118 @@
+﻿@model Dictionary<string, string>
+@{
+    Layout = null;
+}
+
+<!-- Header Area Start -->
+<header class="top">
+    <div class="header-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                    <div class="header-top-left">
+                        <p>HAVE ANY QUESTION ?  @Model["HeaderPhone"]</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="header-top-right text-right">
+                        <ul>
+                            <li><a href="~/assets/login.html">login</a></li>
+                            <li><a href="~/assets/signup.html">signup</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-area two header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="logo">
+                        <a href="~/assets/index.html"><img src="~/assets/img/logo/@Model["HeaderLogo"]" alt="eduhome" /></a>
+                    </div>
+                </div>
+                <div class="col-md-9 col-sm-9 col-xs-6">
+                    <div class="content-wrapper text-right">
+                        <!-- Main Menu Start -->
+                        <div class="main-menu">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="~/assets/index.html">Home</a>
+                                        <ul>
+                                            <li><a href="~/assets/index.html">Home One</a></li>
+                                            <li><a href="~/assets/index-2.html">Home Two</a></li>
+                                            <li><a href="~/assets/index-3.html">Home Three</a></li>
+                                            <li><a href="~/assets/index-4.html">Home Four</a></li>
+                                            <li><a href="~/assets/index-5.html">Home Five</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="~/assets/about.html">About</a></li>
+                                    <li>
+                                        <a href="~/assets/course.html">courses</a>
+                                        <ul>
+                                            <li><a href="~/assets/course.html">courses</a></li>
+                                            <li><a href="~/assets/course-details.html">courses details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="~/assets/event.html">event</a>
+                                        <ul>
+                                            <li><a href="~/assets/event.html">event</a></li>
+                                            <li><a href="~/assets/event-left-side-bar.html">event left sidebar</a></li>
+                                            <li><a href="~/assets/event-right-side-bar.html">event right sidebar</a></li>
+                                            <li><a href="~/assets/event-details.html">event details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="hidden-sm">
+                                        <a href="~/assets/teacher.html">teacher</a>
+                                        <ul>
+                                            <li><a href="~/assets/teacher.html">teacher</a></li>
+                                            <li><a href="~/assets/teacher-details.html">teacher details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="~/assets/blog.html">blog</a>
+                                        <ul>
+                                            <li><a href="~/assets/blog.html">blog</a></li>
+                                            <li><a href="~/assets/blog-left-side-bar.html">blog left sidebar</a></li>
+                                            <li><a href="~/assets/blog-right-side-bar.html">blog righ sidebar</a></li>
+                                            <li><a href="~/assets/blog-details.html">blog details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="~/assets/contact.html">Contact</a></li>
+                                    <li><a href="~/assets/#">Buy Now</a>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!--Search Form Start-->
+                        <div class="search-btn">
+                            <ul data-toggle="dropdown" class="header-search search-toggle">
+                                <li class="search-menu">
+                                    <i class="fa fa-search"></i>
+                                </li>
+                            </ul>
+                            <div class="search">
+                                <div class="search-form">
+                                    <form id="search-form" action="#">
+                                        <input type="search" placeholder="Search here..." name="search" />
+                                        <button type="submit">
+                                            <span><i class="fa fa-search"></i></span>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End of Search Form-->
+                        <!-- Main Menu End -->
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="mobile-menu hidden-lg hidden-md hidden-sm"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Header Area End -->
