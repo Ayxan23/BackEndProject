@@ -1,0 +1,29 @@
+﻿@model Course
+@{
+    ViewData["Title"] = "Course Detail";
+}
+
+<div style="width:200px; height:auto">
+    <img src="~/assets/img/course/@Model.Image" style="max-width:100%; max-height: auto" />
+</div>
+
+<div style="color: dimgray; margin-left:15px">
+    <h2>Name: @Model.Name</h2>
+    <h3>Description: @Model.Description</h3>
+    <h3>Start: @Model.Start</h3>
+    <h3>Duration: @Model.Duration</h3>
+    <h3>ClassDuration: @Model.ClassDuration</h3>
+    <h3>SkillLevel: @Model.SkillLevel</h3>
+    <h3>Language: @Model.Language</h3>
+    <h3>Students: @Model.Students</h3>
+    <h3>Price: @Model.Price</h3>
+</div>
+<div style="margin-left:15px; list-style:none; color: dodgerblue; display:flex; gap:5px; align-item: center">
+    <h3>Categories:</h3>
+    @foreach (var item in Model.CourseCategories)
+    {
+        <h4>@item.Category.Name</h4>
+    }
+</div>
+
+<a class="btn btn-info" asp-action="Index">Go Back</a>

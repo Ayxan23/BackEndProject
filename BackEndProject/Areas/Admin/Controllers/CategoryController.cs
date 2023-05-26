@@ -46,7 +46,48 @@ namespace BackEndProject.Areas.Admin.Controllers
 
             await _context.Categories.AddAsync(category);
             await _context.SaveChangesAsync();
-            
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> Detail(int id)
+        {
+            var category = await _context.Categories.Include(c => c.CourseCategories).ThenInclude(cc => cc.Course).FirstOrDefaultAsync(p => p.Id == id);
+            if (category is null)
+                return NotFound();
+
+            return View(category);
+        }
+
+        public async Task<IActionResult> Update(int id)
+        {
+            var category = await _context.Categories.Include(c => c.CourseCategories).ThenInclude(cc => cc.Course).FirstOrDefaultAsync(p => p.Id == id);
+            if (category is null)
+                return NotFound();
+
+            CategoryViewModel categoryViewModel = new()
+            {
+                Id = category.Id,
+                Name = category.Name,
+            };
+
+            return View(categoryViewModel);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Update(int id, CategoryViewModel categoryViewModell)
+        {
+            if (!ModelState.IsValid)
+                return View();
+
+            var category = await _context.Categories.Include(c => c.CourseCategories).ThenInclude(cc => cc.Course).FirstOrDefaultAsync(p => p.Id == id);
+            if (category is null)
+                return NotFound();
+
+            category.Name = categoryViewModell.Name;
+             
+            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
     }

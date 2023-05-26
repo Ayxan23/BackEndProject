@@ -31,12 +31,13 @@
             return base.SaveChangesAsync(cancellationToken);
         }
 
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    modelBuilder.Entity<Product>().HasQueryFilter(p => !p.IsDeleted);
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Course>().HasQueryFilter(c => !c.IsDeleted);
+            modelBuilder.Entity<Category>().HasQueryFilter(c => !c.IsDeleted);
 
-        //    base.OnModelCreating(modelBuilder);
-        //}
+            base.OnModelCreating(modelBuilder);
+        }
     }
 
 }

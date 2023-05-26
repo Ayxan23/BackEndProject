@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lkf6Bif4Et44kLumAElPP6tE0OVIg8g7cxXHunp6iBk=",
+  "Hash": "TC3soMxPOn/DPR3oVPyZGmhAs1G99dlR6eL/ClznKkY=",
   "Source": "BackEndProject",
   "BasePath": "_content/BackEndProject",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BackEndProject\\wwwroot",
       "Source": "BackEndProject",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\css\\maps\\style.css.map",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\css\\maps\\style.css.map",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/css/maps/style.css.map",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\css\\maps\\style.css.map"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\css\\style.css",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\css\\style.css",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/css/style.css",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\.DS_Store",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\.DS_Store",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/.DS_Store",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\.DS_Store",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\.DS_Store",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/Roboto/.DS_Store",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\Roboto\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Black.eot",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Black.eot",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/Roboto/Roboto-Black.eot",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Black.eot"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Black.ttf",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Black.ttf",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/Roboto/Roboto-Black.ttf",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Black.ttf"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Black.woff",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Black.woff",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/Roboto/Roboto-Black.woff",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Black.woff"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Black.woff2",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Black.woff2",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/Roboto/Roboto-Black.woff2",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Black.woff2"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.eot",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.eot",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/Roboto/Roboto-Bold.eot",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.eot"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.ttf",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.ttf",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/Roboto/Roboto-Bold.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.ttf"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.woff",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.woff",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/Roboto/Roboto-Bold.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.woff"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.woff2",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.woff2",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/Roboto/Roboto-Bold.woff2",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Bold.woff2"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Light.eot",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Light.eot",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/Roboto/Roboto-Light.eot",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Light.eot"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Light.ttf",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Light.ttf",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/Roboto/Roboto-Light.ttf",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Light.ttf"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Light.woff",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Light.woff",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/Roboto/Roboto-Light.woff",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Light.woff"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Light.woff2",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Light.woff2",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/Roboto/Roboto-Light.woff2",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Light.woff2"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.eot",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.eot",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/Roboto/Roboto-Medium.eot",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.eot"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.ttf",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.ttf",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/Roboto/Roboto-Medium.ttf",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.ttf"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.woff",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.woff",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/Roboto/Roboto-Medium.woff",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.woff"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.woff2",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.woff2",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/Roboto/Roboto-Medium.woff2",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Medium.woff2"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.eot",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.eot",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/Roboto/Roboto-Regular.eot",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.eot"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.ttf",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.ttf",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/Roboto/Roboto-Regular.ttf",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.ttf"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.woff",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.woff",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/Roboto/Roboto-Regular.woff",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.woff"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.woff2",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.woff2",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/fonts/Roboto/Roboto-Regular.woff2",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\fonts\\Roboto\\Roboto-Regular.woff2"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\.DS_Store",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\.DS_Store",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/.DS_Store",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\auth\\.DS_Store",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\auth\\.DS_Store",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/auth/.DS_Store",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\auth\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\auth\\lockscreen-bg.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\auth\\lockscreen-bg.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/auth/lockscreen-bg.jpg",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\auth\\lockscreen-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\auth\\login-bg.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\auth\\login-bg.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/auth/login-bg.jpg",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\auth\\login-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\auth\\register-bg.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\auth\\register-bg.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/auth/register-bg.jpg",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\auth\\register-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\.DS_Store",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\.DS_Store",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/.DS_Store",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face1.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face1.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face1.jpg",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face10.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face10.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face10.jpg",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face10.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face11.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face11.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face11.jpg",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face11.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face12.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face12.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face12.jpg",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face12.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face13.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face13.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face13.jpg",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face13.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face14.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face14.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face14.jpg",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face14.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face15.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face15.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face15.jpg",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face15.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face16.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face16.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face16.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face16.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face17.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face17.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face17.jpg",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face17.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face18.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face18.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face18.jpg",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face18.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face19.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face19.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face19.jpg",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face19.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face2.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face2.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face2.jpg",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face20.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face20.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face20.jpg",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face20.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face21.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face21.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face21.jpg",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face21.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face22.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face22.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face22.jpg",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face22.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face23.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face23.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face23.jpg",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face23.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face24.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face24.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face24.jpg",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face24.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face25.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face25.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face25.jpg",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face25.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face26.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face26.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face26.jpg",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face26.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face27.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face27.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face27.jpg",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face27.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face3.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face3.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face3.jpg",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face4.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face4.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face4.jpg",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face5.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face5.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face5.jpg",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face6.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face6.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face6.jpg",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face7.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face7.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face7.jpg",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face8.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face8.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face8.jpg",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face9.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\face9.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/face9.jpg",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\face9.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\profilfotom.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\faces\\profilfotom.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/faces/profilfotom.jpg",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\faces\\profilfotom.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\favicon.png",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\favicon.png",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/favicon.png",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\logo.svg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\logo.svg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/logo.svg",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\logo.svg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\logo-mini.svg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\images\\logo-mini.svg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/images/logo-mini.svg",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\images\\logo-mini.svg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\.DS_Store",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\.DS_Store",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/js/.DS_Store",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\js\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\chart.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\chart.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/js/chart.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\js\\chart.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\Chart.min.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\Chart.min.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/js/Chart.min.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\js\\Chart.min.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\dashboard.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\dashboard.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/js/dashboard.js",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\js\\dashboard.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\data-table.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\data-table.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/js/data-table.js",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\js\\data-table.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\dataTables.bootstrap4.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\dataTables.bootstrap4.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/js/dataTables.bootstrap4.js",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\js\\dataTables.bootstrap4.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\documentation.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\documentation.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/js/documentation.js",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\js\\documentation.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\file-upload.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\file-upload.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/js/file-upload.js",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\js\\file-upload.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\hoverable-collapse.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\hoverable-collapse.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/js/hoverable-collapse.js",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\js\\hoverable-collapse.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\jquery.cookie.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\jquery.cookie.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/js/jquery.cookie.js",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\js\\jquery.cookie.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\jquery.dataTables.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\jquery.dataTables.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/js/jquery.dataTables.js",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\js\\jquery.dataTables.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\off-canvas.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\off-canvas.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/js/off-canvas.js",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\js\\off-canvas.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\tabs.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\tabs.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/js/tabs.js",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\js\\tabs.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\template.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\js\\template.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/js/template.js",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\js\\template.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\.DS_Store",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\.DS_Store",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/vendors/.DS_Store",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\vendors\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\base\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\base\\bootstrap.min.js.map",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/vendors/base/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\vendors\\base\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\base\\vendor.bundle.base.css",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\base\\vendor.bundle.base.css",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/vendors/base/vendor.bundle.base.css",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\vendors\\base\\vendor.bundle.base.css"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\base\\vendor.bundle.base.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\base\\vendor.bundle.base.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/vendors/base/vendor.bundle.base.js",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\vendors\\base\\vendor.bundle.base.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\chart.js\\Chart.min.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\chart.js\\Chart.min.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/vendors/chart.js/Chart.min.js",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\vendors\\chart.js\\Chart.min.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\datatables.net\\jquery.dataTables.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\datatables.net\\jquery.dataTables.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/vendors/datatables.net/jquery.dataTables.js",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\vendors\\datatables.net\\jquery.dataTables.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/vendors/datatables.net-bs4/dataTables.bootstrap4.css",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/vendors/datatables.net-bs4/dataTables.bootstrap4.js",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/vendors/mdi/css/materialdesignicons.min.css",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/vendors/mdi/css/materialdesignicons.min.css.map",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/vendors/mdi/fonts/materialdesignicons-webfont.eot",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.svg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.svg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/vendors/mdi/fonts/materialdesignicons-webfont.svg",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.svg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/vendors/mdi/fonts/materialdesignicons-webfont.ttf",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/vendors/mdi/fonts/materialdesignicons-webfont.woff",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/admin/vendors/mdi/fonts/materialdesignicons-webfont.woff2",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\animate.css",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\animate.css",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/css/animate.css",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\animate.css"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\bootstrap.min.css",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\et-line-icon.css",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\et-line-icon.css",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/css/et-line-icon.css",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\et-line-icon.css"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\font-awesome.min.css",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\font-awesome.min.css",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/css/font-awesome.min.css",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\font-awesome.min.css"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\ionicons.min.css",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\ionicons.min.css",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/css/ionicons.min.css",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\ionicons.min.css"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\magnific-popup.css",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\magnific-popup.css",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/css/magnific-popup.css",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\magnific-popup.css"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\material-design-iconic-font.min.css",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\material-design-iconic-font.min.css",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/css/material-design-iconic-font.min.css",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\material-design-iconic-font.min.css"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\meanmenu.css",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\meanmenu.css",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/css/meanmenu.css",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\meanmenu.css"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\owl.carousel.min.css",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\owl.carousel.min.css",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/css/owl.carousel.min.css",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\owl.carousel.min.css"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\owl.video.play.png",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\owl.video.play.png",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/css/owl.video.play.png",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\owl.video.play.png"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\reset.css",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\reset.css",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/css/reset.css",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\reset.css"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\responsive.css",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\responsive.css",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/css/responsive.css",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\responsive.css"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\style.css",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\style.css",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/css/style.css",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\et-line.eot",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\et-line.eot",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/et-line.eot",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\et-line.eot"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\et-line.svg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\et-line.svg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/et-line.svg",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\et-line.svg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\et-line.ttf",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\et-line.ttf",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/et-line.ttf",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\et-line.ttf"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\et-line.woff",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\et-line.woff",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/et-line.woff",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\et-line.woff"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\et-lined41d.eot",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\et-lined41d.eot",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/et-lined41d.eot",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\et-lined41d.eot"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fontawesome-webfont3e6e.eot",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fontawesome-webfont3e6e.eot",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/fontawesome-webfont3e6e.eot",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fontawesome-webfont3e6e.eot"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fontawesome-webfont3e6e.svg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fontawesome-webfont3e6e.svg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/fontawesome-webfont3e6e.svg",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fontawesome-webfont3e6e.svg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fontawesome-webfont3e6e.ttf",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fontawesome-webfont3e6e.ttf",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/fontawesome-webfont3e6e.ttf",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fontawesome-webfont3e6e.ttf"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fontawesome-webfont3e6e.woff",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fontawesome-webfont3e6e.woff",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/fontawesome-webfont3e6e.woff",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fontawesome-webfont3e6e.woff"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fontawesome-webfont3e6e.woff2",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fontawesome-webfont3e6e.woff2",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/fontawesome-webfont3e6e.woff2",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fontawesome-webfont3e6e.woff2"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fontawesome-webfontd41d.eot",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\fontawesome-webfontd41d.eot",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/fontawesome-webfontd41d.eot",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\fontawesome-webfontd41d.eot"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.eot",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.eot",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/glyphicons-halflings-regular.eot",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\glyphicons-halflings-regular.eot"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.svg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.svg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/glyphicons-halflings-regular.svg",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\glyphicons-halflings-regular.svg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.ttf",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.ttf",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/glyphicons-halflings-regular.ttf",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\glyphicons-halflings-regular.ttf"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.woff",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.woff",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/glyphicons-halflings-regular.woff",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\glyphicons-halflings-regular.woff"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.woff2",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.woff2",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/glyphicons-halflings-regular.woff2",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\glyphicons-halflings-regular.woff2"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\glyphicons-halflings-regulard41d.eot",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\glyphicons-halflings-regulard41d.eot",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/glyphicons-halflings-regulard41d.eot",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\glyphicons-halflings-regulard41d.eot"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\ionicons28b5.eot",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\ionicons28b5.eot",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/ionicons28b5.eot",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\ionicons28b5.eot"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\ionicons28b5.svg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\ionicons28b5.svg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/ionicons28b5.svg",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\ionicons28b5.svg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\ionicons28b5.ttf",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\ionicons28b5.ttf",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/ionicons28b5.ttf",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\ionicons28b5.ttf"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\ionicons28b5.woff",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\ionicons28b5.woff",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/ionicons28b5.woff",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\ionicons28b5.woff"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.ttf",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.ttf",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/Material-Design-Iconic-Fontd1f1.ttf",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.ttf"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/Material-Design-Iconic-Fontd1f1.woff",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff2",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff2",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/fonts/Material-Design-Iconic-Fontd1f1.woff2",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\Material-Design-Iconic-Fontd1f1.woff2"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\about\\about.png",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\about\\about.png",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/about/about.png",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\about\\about.png"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\banner\\banner.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\banner\\banner.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/banner/banner.jpg",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\banner\\banner.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog1.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog1.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/blog/blog1.jpg",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\blog\\blog1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog2.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog2.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/blog/blog2.jpg",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\blog\\blog2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog3.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog3.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/blog/blog3.jpg",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\blog\\blog3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog4.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog4.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/blog/blog4.jpg",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\blog\\blog4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog5.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog5.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/blog/blog5.jpg",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\blog\\blog5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog6.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog6.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/blog/blog6.jpg",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\blog\\blog6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog7.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog7.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/blog/blog7.jpg",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\blog\\blog7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog8.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog8.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/blog/blog8.jpg",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\blog\\blog8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog9.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog9.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/blog/blog9.jpg",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\blog\\blog9.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog-detail.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog-detail.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/blog/blog-detail.jpg",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\blog\\blog-detail.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog-img.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog-img.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/blog/blog-img.jpg",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\blog\\blog-img.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\choose\\choose.png",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\choose\\choose.png",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/choose/choose.png",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\choose\\choose.png"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\choose\\choose-bd.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\choose\\choose-bd.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/choose/choose-bd.jpg",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\choose\\choose-bd.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\contact\\contact1.png",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\contact\\contact1.png",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/contact/contact1.png",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\contact\\contact1.png"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\contact\\contact2.png",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\contact\\contact2.png",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/contact/contact2.png",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\contact\\contact2.png"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\contact\\contact3.png",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\contact\\contact3.png",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/contact/contact3.png",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\contact\\contact3.png"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\course1.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\course1.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/course/course1.jpg",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\course\\course1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\course2.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\course2.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/course/course2.jpg",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\course\\course2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\course3.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\course3.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/course/course3.jpg",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\course\\course3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\course4.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\course4.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/course/course4.jpg",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\course\\course4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\course5.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\course5.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/course/course5.jpg",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\course\\course5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\course6.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\course6.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/course/course6.jpg",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\course\\course6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\course7.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\course7.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/course/course7.jpg",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\course\\course7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\course8.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\course8.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/course/course8.jpg",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\course\\course8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\course9.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\course9.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/course/course9.jpg",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\course\\course9.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\course-bg.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\course-bg.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/course/course-bg.jpg",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\course\\course-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\courses-details.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\courses-details.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/course/courses-details.jpg",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\course\\courses-details.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event1.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event1.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/event/event1.jpg",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\event\\event1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event10.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event10.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/event/event10.jpg",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\event\\event10.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event11.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event11.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/event/event11.jpg",
       "AssetKind": "All",
@@ -2720,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\event\\event11.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event12.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event12.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/event/event12.jpg",
       "AssetKind": "All",
@@ -2737,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\event\\event12.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event13.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event13.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/event/event13.jpg",
       "AssetKind": "All",
@@ -2754,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\event\\event13.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event2.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event2.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/event/event2.jpg",
       "AssetKind": "All",
@@ -2771,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\event\\event2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event3.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event3.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/event/event3.jpg",
       "AssetKind": "All",
@@ -2788,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\event\\event3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event5.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event5.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/event/event5.jpg",
       "AssetKind": "All",
@@ -2805,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\event\\event5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event6.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event6.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/event/event6.jpg",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\event\\event6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event7.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event7.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/event/event7.jpg",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\event\\event7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event8.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event8.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/event/event8.jpg",
       "AssetKind": "All",
@@ -2856,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\event\\event8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event9.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event9.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/event/event9.jpg",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\event\\event9.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event-details.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event-details.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/event/event-details.jpg",
       "AssetKind": "All",
@@ -2890,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\event\\event-details.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\speaker1.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\speaker1.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/event/speaker1.jpg",
       "AssetKind": "All",
@@ -2907,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\event\\speaker1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\speaker2.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\speaker2.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/event/speaker2.jpg",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\event\\speaker2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\footer\\footer1.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\footer\\footer1.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/footer/footer1.jpg",
       "AssetKind": "All",
@@ -2941,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\footer\\footer1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\footer\\footer2.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\footer\\footer2.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/footer/footer2.jpg",
       "AssetKind": "All",
@@ -2958,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\footer\\footer2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\footer\\footer3.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\footer\\footer3.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/footer/footer3.jpg",
       "AssetKind": "All",
@@ -2975,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\footer\\footer3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\footer\\footer4.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\footer\\footer4.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/footer/footer4.jpg",
       "AssetKind": "All",
@@ -2992,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\footer\\footer4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\icon\\section.png",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\icon\\section.png",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/icon/section.png",
       "AssetKind": "All",
@@ -3009,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\icon\\section.png"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\icon\\section1.png",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\icon\\section1.png",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/icon/section1.png",
       "AssetKind": "All",
@@ -3026,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\icon\\section1.png"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\logo\\footer-logo.png",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\logo\\footer-logo.png",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/logo/footer-logo.png",
       "AssetKind": "All",
@@ -3043,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\logo\\footer-logo.png"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\logo\\logo.png",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\logo\\logo.png",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/logo/logo.png",
       "AssetKind": "All",
@@ -3060,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\logo\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\logo\\logo2.png",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\logo\\logo2.png",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/logo/logo2.png",
       "AssetKind": "All",
@@ -3077,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\logo\\logo2.png"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\notice\\video.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\notice\\video.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/notice/video.jpg",
       "AssetKind": "All",
@@ -3094,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\notice\\video.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\post\\post1.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\post\\post1.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/post/post1.jpg",
       "AssetKind": "All",
@@ -3111,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\post\\post1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\post\\post2.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\post\\post2.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/post/post2.jpg",
       "AssetKind": "All",
@@ -3128,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\post\\post2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\post\\post3.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\post\\post3.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/post/post3.jpg",
       "AssetKind": "All",
@@ -3145,10 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\post\\post3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\slider\\home.png",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\slider\\home.png",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/slider/home.png",
       "AssetKind": "All",
@@ -3162,10 +3162,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\slider\\home.png"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\slider\\slider1.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\slider\\slider1.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/slider/slider1.jpg",
       "AssetKind": "All",
@@ -3179,10 +3179,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\slider\\slider1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\slider\\slider2.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\slider\\slider2.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/slider/slider2.jpg",
       "AssetKind": "All",
@@ -3196,10 +3196,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\slider\\slider2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\slider\\slider3.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\slider\\slider3.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/slider/slider3.jpg",
       "AssetKind": "All",
@@ -3213,10 +3213,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\slider\\slider3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher1.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher1.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/teacher/teacher1.jpg",
       "AssetKind": "All",
@@ -3230,10 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\teacher\\teacher1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher10.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher10.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/teacher/teacher10.jpg",
       "AssetKind": "All",
@@ -3247,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\teacher\\teacher10.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher11.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher11.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/teacher/teacher11.jpg",
       "AssetKind": "All",
@@ -3264,10 +3264,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\teacher\\teacher11.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher12.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher12.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/teacher/teacher12.jpg",
       "AssetKind": "All",
@@ -3281,10 +3281,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\teacher\\teacher12.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher2.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher2.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/teacher/teacher2.jpg",
       "AssetKind": "All",
@@ -3298,10 +3298,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\teacher\\teacher2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher3.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher3.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/teacher/teacher3.jpg",
       "AssetKind": "All",
@@ -3315,10 +3315,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\teacher\\teacher3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher4.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher4.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/teacher/teacher4.jpg",
       "AssetKind": "All",
@@ -3332,10 +3332,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\teacher\\teacher4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher5.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher5.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/teacher/teacher5.jpg",
       "AssetKind": "All",
@@ -3349,10 +3349,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\teacher\\teacher5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher6.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher6.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/teacher/teacher6.jpg",
       "AssetKind": "All",
@@ -3366,10 +3366,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\teacher\\teacher6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher7.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher7.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/teacher/teacher7.jpg",
       "AssetKind": "All",
@@ -3383,10 +3383,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\teacher\\teacher7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher8.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher8.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/teacher/teacher8.jpg",
       "AssetKind": "All",
@@ -3400,10 +3400,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\teacher\\teacher8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher9.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher9.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/teacher/teacher9.jpg",
       "AssetKind": "All",
@@ -3417,10 +3417,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\teacher\\teacher9.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher-details.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher-details.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/teacher/teacher-details.jpg",
       "AssetKind": "All",
@@ -3434,10 +3434,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\teacher\\teacher-details.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\testimonial\\testimonial.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\testimonial\\testimonial.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/testimonial/testimonial.jpg",
       "AssetKind": "All",
@@ -3451,10 +3451,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\testimonial\\testimonial.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\testimonial\\testimonial-bg.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\testimonial\\testimonial-bg.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/img/testimonial/testimonial-bg.jpg",
       "AssetKind": "All",
@@ -3468,10 +3468,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\testimonial\\testimonial-bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\ajax-mail.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\ajax-mail.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/js/ajax-mail.js",
       "AssetKind": "All",
@@ -3485,10 +3485,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\ajax-mail.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\bootstrap.min.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3502,10 +3502,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\jquery.magnific-popup.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\jquery.magnific-popup.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/js/jquery.magnific-popup.js",
       "AssetKind": "All",
@@ -3519,10 +3519,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\jquery.magnific-popup.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\jquery.mb.YTPlayer.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\jquery.mb.YTPlayer.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/js/jquery.mb.YTPlayer.js",
       "AssetKind": "All",
@@ -3536,10 +3536,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\jquery.mb.YTPlayer.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\jquery.meanmenu.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\jquery.meanmenu.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/js/jquery.meanmenu.js",
       "AssetKind": "All",
@@ -3553,10 +3553,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\jquery.meanmenu.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\jquery.nicescroll.min.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\jquery.nicescroll.min.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/js/jquery.nicescroll.min.js",
       "AssetKind": "All",
@@ -3570,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\jquery.nicescroll.min.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\main.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\main.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/js/main.js",
       "AssetKind": "All",
@@ -3587,10 +3587,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\owl.carousel.min.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\owl.carousel.min.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/js/owl.carousel.min.js",
       "AssetKind": "All",
@@ -3604,10 +3604,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\owl.carousel.min.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\plugins.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\plugins.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/js/plugins.js",
       "AssetKind": "All",
@@ -3621,10 +3621,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\plugins.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\vendor\\jquery-1.12.0.min.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\vendor\\jquery-1.12.0.min.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/js/vendor/jquery-1.12.0.min.js",
       "AssetKind": "All",
@@ -3638,10 +3638,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\js\\vendor\\jquery-1.12.0.min.js"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\vendor\\modernizr-2.8.3.min.js",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\js\\vendor\\modernizr-2.8.3.min.js",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
       "RelativePath": "assets/js/vendor/modernizr-2.8.3.min.js",
       "AssetKind": "All",
