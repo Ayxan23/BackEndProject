@@ -1,15 +1,25 @@
-﻿
+﻿@model CategoryViewModel
 @{
-    Layout = null;
+    ViewData["Title"] = "Update";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Update</title>
-</head>
-<body>
-</body>
-</html>
+<div class="content-wrapper">
+    <div class="row">
+        <div class="col-md-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Category Update</h4>
+                    <form class="forms-sample" method="post">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Name</label>
+                            <input class="form-control" asp-for="Name" placeholder="Name">
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        <button type="submit" class="btn btn-warning mr-2">Update</button>
+                        <a class="btn btn-light" asp-action="Index">Cancel</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

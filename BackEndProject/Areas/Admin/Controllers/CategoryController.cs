@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BackEndProject.Areas.Admin.ViewModels;
+using Microsoft.AspNetCore.Mvc;
 
 namespace BackEndProject.Areas.Admin.Controllers
 {
@@ -31,8 +32,7 @@ namespace BackEndProject.Areas.Admin.Controllers
             if (!ModelState.IsValid)
                 return View();
 
-            bool isExist = _context.Categories.Any(t => t.Name == categoryViewModel.Name);
-            if (isExist)
+            if (await _context.Courses.AnyAsync(s => s.Name == categoryViewModel.Name))
             {
                 ModelState.AddModelError("Name", "Name already exist");
                 return View();
@@ -76,17 +76,48 @@ namespace BackEndProject.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Update(int id, CategoryViewModel categoryViewModell)
+        public async Task<IActionResult> Update(int id, CategoryViewModel categoryViewModel)
         {
             if (!ModelState.IsValid)
                 return View();
+
+            if (await _context.Courses.AnyAsync(s => s.Name == categoryViewModel.Name))
+            {
+                ModelState.AddModelError("Name", "Name already exist");
+                return View();
+            }
 
             var category = await _context.Categories.Include(c => c.CourseCategories).ThenInclude(cc => cc.Course).FirstOrDefaultAsync(p => p.Id == id);
             if (category is null)
                 return NotFound();
 
-            category.Name = categoryViewModell.Name;
-             
+            category.Name = categoryViewModel.Name;
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            var category = await _context.Categories.Include(c => c.CourseCategories).ThenInclude(cc => cc.Course).FirstOrDefaultAsync(p => p.Id == id);
+            if (category is null)
+                return NotFound();
+
+            return View(category);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [ActionName(nameof(Delete))]
+        public async Task<IActionResult> DeletePost(int id)
+        {
+            var category = await _context.Categories.Include(c => c.CourseCategories).ThenInclude(cc => cc.Course).FirstOrDefaultAsync(p => p.Id == id);
+            if (category is null)
+                return NotFound();
+
+            category.IsDeleted = true;
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }

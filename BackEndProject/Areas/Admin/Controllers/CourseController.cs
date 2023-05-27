@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using BackEndProject.Contexts;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Mime;
 using System.Xml.Linq;
 
 namespace BackEndProject.Areas.Admin.Controllers
@@ -8,10 +11,12 @@ namespace BackEndProject.Areas.Admin.Controllers
     public class CourseController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public CourseController(AppDbContext context)
+        public CourseController(AppDbContext context, IWebHostEnvironment webHostEnvironment)
         {
             _context = context;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         public async Task<IActionResult> Index()
@@ -42,11 +47,42 @@ namespace BackEndProject.Areas.Admin.Controllers
                     return BadRequest();
             }
 
+            if (await _context.Courses.AnyAsync(s => s.Name == courseViewModel.Name))
+            {
+                ModelState.AddModelError("Name", "Name already exist");
+                return View();
+            }
+
+            if (courseViewModel.Image == null)
+            {
+                ModelState.AddModelError("Image", "Image bosh ola bilmez");
+                return View();
+            }
+            if (courseViewModel.Image.Length / 1024 > 300)
+            {
+                ModelState.AddModelError("Image", "Faylin hecmi 300kb-dan kicik olmalidir.");
+                return View();
+            }
+            if (!courseViewModel.Image.ContentType.Contains("image/"))
+            {
+                ModelState.AddModelError("Image", "Faylin tipi image olmalidir.");
+                return View();
+            }
+
+            string fileName = $"{Guid.NewGuid()}-{courseViewModel.Image.FileName}";
+            string path = Path.Combine(_webHostEnvironment.WebRootPath, "assets", "img", "course", fileName);
+
+            using (FileStream stream = new(path, FileMode.Create))
+            {
+                await courseViewModel.Image.CopyToAsync(stream);
+            }
+
+
             Course course = new()
             {
                 Name = courseViewModel.Name,
                 Description = courseViewModel.Description,
-                Image = courseViewModel.Image,
+                Image = fileName,
                 Start = courseViewModel.Start,
                 Duration = courseViewModel.Duration,
                 ClassDuration = courseViewModel.ClassDuration,
@@ -98,7 +134,7 @@ namespace BackEndProject.Areas.Admin.Controllers
                 Id = course.Id,
                 Name = course.Name,
                 Description = course.Description,
-                Image = course.Image,
+                //Image = course.Image,
                 Start = course.Start,
                 Duration = course.Duration,
                 ClassDuration = course.ClassDuration,
@@ -120,6 +156,12 @@ namespace BackEndProject.Areas.Admin.Controllers
             if (!ModelState.IsValid)
                 return View();
 
+            if (await _context.Courses.AnyAsync(s => s.Name == courseViewModel.Name))
+            {
+                ModelState.AddModelError("Name", "Name already exist");
+                return View();
+            }
+
             foreach (var categoryId in courseViewModel.CategoryIds)
             {
                 if (!_context.Categories.Any(c => c.Id == categoryId))
@@ -132,7 +174,7 @@ namespace BackEndProject.Areas.Admin.Controllers
 
             course.Name = courseViewModel.Name;
             course.Description = courseViewModel.Description;
-            course.Image = courseViewModel.Image;
+            //course.Image = courseViewModel.Image;
             course.Start = courseViewModel.Start;
             course.Duration = courseViewModel.Duration;
             course.ClassDuration = courseViewModel.ClassDuration;
@@ -161,7 +203,6 @@ namespace BackEndProject.Areas.Admin.Controllers
         public async Task<IActionResult> Delete(int id)
         {
             var course = await _context.Courses.Include(c => c.CourseCategories).ThenInclude(cc => cc.Category).FirstOrDefaultAsync(p => p.Id == id);
-
             if (course is null)
                 return NotFound();
 

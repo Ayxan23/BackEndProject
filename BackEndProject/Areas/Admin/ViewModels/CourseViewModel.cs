@@ -7,8 +7,7 @@
         public string Name { get; set; }
         [Required, MaxLength(300)]
         public string Description { get; set; }
-        [Required]
-        public string Image { get; set; }
+        public IFormFile? Image { get; set; }
         [Required]
         public DateTime Start { get; set; }
         [Required]
