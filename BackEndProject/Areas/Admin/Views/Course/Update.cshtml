@@ -9,13 +9,11 @@
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title">Course Update</h4>
-                    <p class="card-description">
-                        Basic form layout
-                    </p>
                     <form class="forms-sample" method="post" enctype="multipart/form-data">
                         <div class="form-group">
                             <label for="exampleInputUsername1">Image</label>
                             <input class="form-control" asp-for="Image" placeholder="Image">
+                            <span asp-validation-for="Image" class="text-danger"></span>
                         </div>
                         <div class="form-group">
                             <label for="Name">Name</label>
@@ -63,13 +61,14 @@
                             <span asp-validation-for="Price" class="text-danger"></span>
                         </div>
                         <div class="form-group">
-                            <label for="TagIds">Tags</label>
+                            <label for="CategoryIds">Categories</label>
                             <select class="form-control" name="CategoryIds" id="CategoryIds" multiple>
                                 @foreach (Category category in ViewBag.Categories)
                                 {
                                     <option value="@category.Id">@category.Name</option>
                                 }
                             </select>
+                            <span asp-validation-for="CategoryIds" class="text-danger"></span>
                         </div>
                         <button type="submit" class="btn btn-warning mr-2">Update</button>
                         <a class="btn btn-light" asp-action="Index">Cancel</a>

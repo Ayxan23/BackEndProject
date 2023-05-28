@@ -3,7 +3,7 @@
     ViewData["Title"] = "Course Detail";
 }
 
-<div style="width:200px; height:auto">
+<div style="margin-left:15px; margin-bottom:10px; width:300px; height:auto">
     <img src="~/assets/img/course/@Model.Image" style="max-width:100%; max-height: auto" />
 </div>
 
@@ -18,11 +18,11 @@
     <h3>Students: @Model.Students</h3>
     <h3>Price: @Model.Price</h3>
 </div>
-<div style="margin-left:15px; list-style:none; color: dodgerblue; display:flex; gap:5px; align-item: center">
+<div style="margin-left:15px; list-style:none; color: dodgerblue; display:flex; gap:5px; align-items: center">
     <h3>Categories:</h3>
     @foreach (var item in Model.CourseCategories)
     {
-        <h4>@item.Category.Name</h4>
+        <h4>@item.Category.Name;</h4>
     }
 </div>
 

@@ -1,0 +1,61 @@
+﻿@model EventViewModel
+@{
+    ViewData["Title"] = "Event Create";
+}
+
+<div class="content-wrapper">
+    <div class="row">
+        <div class="col-md-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Event Create</h4>
+
+                    <form class="forms-sample" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="exampleInputUsername1">Image</label>
+                            <input class="form-control" asp-for="Image" placeholder="Image" accept="image/*">
+                            <span asp-validation-for="Image" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="Name">Name</label>
+                            <input class="form-control" asp-for="Name" placeholder="Name">
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="Description">Description</label>
+                            <input class="form-control" asp-for="Description" placeholder="Description">
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="Venue">Venue</label>
+                            <input class="form-control" asp-for="Venue" placeholder="Venue">
+                            <span asp-validation-for="Venue" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="StartTime">StartTime</label>
+                            <input class="form-control" asp-for="StartTime" placeholder="StartTime">
+                            <span asp-validation-for="StartTime" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="EndTime">EndTime</label>
+                            <input class="form-control" asp-for="EndTime" placeholder="EndTime">
+                            <span asp-validation-for="EndTime" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="SpeakerIds">Speakers</label>
+                            <select class="form-control" name="SpeakerIds" id="SpeakerIds" multiple>
+                                @foreach (Speaker speaker in ViewBag.Speakers)
+                                {
+                                    <option value="@speaker.Id">@speaker.FullName, @speaker.Job;</option>
+                                }
+                            </select>
+                            <span asp-validation-for="SpeakerIds" class="text-danger"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary mr-2">Create</button>
+                        <a class="btn btn-light" asp-action="Index">Cancel</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

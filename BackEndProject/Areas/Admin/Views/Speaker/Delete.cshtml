@@ -1,0 +1,27 @@
+﻿@model Speaker
+@{
+    ViewData["Title"] = "Speaker Detail";
+}
+
+<div style="margin-left:15px; margin-bottom:10px; width:300px; height:auto">
+    <img src="~/assets/img/event/@Model.Image" style="max-width:100%; max-height: auto" />
+</div>
+
+<div style="color: dimgray; margin-left:15px">
+    <h2>FullName: @Model.FullName</h2>
+    <h3>Job: @Model.Job</h3>
+</div>
+<div style="margin-left:15px; list-style:none; color: dodgerblue; display:flex; gap:5px; align-items: center">
+    <h3>Events:</h3>
+    @foreach (var item in Model.EventSpeakers)
+    {
+        <h4>@item.Event.Name;</h4>
+    }
+</div>
+
+<div style="display: flex; gap: 15px">
+    <a class="btn btn-info" asp-action="Index">Go Back</a>
+    <form method="post">
+        <button type="submit" class="btn btn-danger">Delete</button>
+    </form>
+</div>

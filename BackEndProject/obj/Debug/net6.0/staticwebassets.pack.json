@@ -581,6 +581,14 @@
       "PackagePath": "staticwebassets\\assets\\img\\contact\\contact3.png"
     },
     {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\0b70f78d-6ed3-4780-a1fa-147f30d770b8-course5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\course\\0b70f78d-6ed3-4780-a1fa-147f30d770b8-course5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\7df5a34b-4252-4240-b6f2-3e7bd19803b9-course8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\course\\7df5a34b-4252-4240-b6f2-3e7bd19803b9-course8.jpg"
+    },
+    {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\course-bg.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\course\\course-bg.jpg"
     },
@@ -623,6 +631,30 @@
     {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\courses-details.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\course\\courses-details.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\d40281f3-4a44-4f87-ae16-973f5a711ce0-course8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\course\\d40281f3-4a44-4f87-ae16-973f5a711ce0-course8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\fc487263-7e96-4650-92a3-dd6641493f62-course3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\course\\fc487263-7e96-4650-92a3-dd6641493f62-course3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\25cee632-3ef7-4d55-9062-511ba8165ef0-event8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event\\25cee632-3ef7-4d55-9062-511ba8165ef0-event8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\6a27ae07-9f29-4f96-9000-481b911e9b2d-event9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event\\6a27ae07-9f29-4f96-9000-481b911e9b2d-event9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\a5283a08-cc92-4595-be8b-b87861755937-event8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event\\a5283a08-cc92-4595-be8b-b87861755937-event8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\bbdd7ec5-47c6-4489-9761-dfbb68b44c07-profilfotom.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event\\bbdd7ec5-47c6-4489-9761-dfbb68b44c07-profilfotom.jpg"
     },
     {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\event-details.jpg",

@@ -1,7 +1,4 @@
-﻿using BackEndProject.Areas.Admin.ViewModels;
-using Microsoft.AspNetCore.Mvc;
-
-namespace BackEndProject.Areas.Admin.Controllers
+﻿namespace BackEndProject.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class CategoryController : Controller
@@ -15,12 +12,12 @@ namespace BackEndProject.Areas.Admin.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var categories = await _context.Categories.ToListAsync();
+            var categories = await _context.Categories.OrderByDescending(c => c.ModifiedAt).ToListAsync();
 
             return View(categories);
         }
 
-        public async Task<IActionResult> Create()
+        public IActionResult Create()
         {
             return View();
         }
@@ -32,7 +29,7 @@ namespace BackEndProject.Areas.Admin.Controllers
             if (!ModelState.IsValid)
                 return View();
 
-            if (await _context.Courses.AnyAsync(s => s.Name == categoryViewModel.Name))
+            if (await _context.Courses.AnyAsync(c => c.Name == categoryViewModel.Name))
             {
                 ModelState.AddModelError("Name", "Name already exist");
                 return View();
@@ -50,18 +47,20 @@ namespace BackEndProject.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+
         public async Task<IActionResult> Detail(int id)
         {
-            var category = await _context.Categories.Include(c => c.CourseCategories).ThenInclude(cc => cc.Course).FirstOrDefaultAsync(p => p.Id == id);
+            var category = await _context.Categories.Include(c => c.CourseCategories).ThenInclude(cc => cc.Course).FirstOrDefaultAsync(c => c.Id == id);
             if (category is null)
                 return NotFound();
 
             return View(category);
         }
 
+
         public async Task<IActionResult> Update(int id)
         {
-            var category = await _context.Categories.Include(c => c.CourseCategories).ThenInclude(cc => cc.Course).FirstOrDefaultAsync(p => p.Id == id);
+            var category = await _context.Categories.Include(c => c.CourseCategories).ThenInclude(cc => cc.Course).FirstOrDefaultAsync(c => c.Id == id);
             if (category is null)
                 return NotFound();
 
@@ -81,15 +80,15 @@ namespace BackEndProject.Areas.Admin.Controllers
             if (!ModelState.IsValid)
                 return View();
 
-            if (await _context.Courses.AnyAsync(s => s.Name == categoryViewModel.Name))
+            var category = await _context.Categories.Include(c => c.CourseCategories).ThenInclude(cc => cc.Course).FirstOrDefaultAsync(c => c.Id == id);
+            if (category is null)
+                return NotFound();
+
+            if (await _context.Courses.AnyAsync(c => c.Name == categoryViewModel.Name && c.Name != category.Name))
             {
                 ModelState.AddModelError("Name", "Name already exist");
                 return View();
             }
-
-            var category = await _context.Categories.Include(c => c.CourseCategories).ThenInclude(cc => cc.Course).FirstOrDefaultAsync(p => p.Id == id);
-            if (category is null)
-                return NotFound();
 
             category.Name = categoryViewModel.Name;
 
@@ -100,7 +99,7 @@ namespace BackEndProject.Areas.Admin.Controllers
 
         public async Task<IActionResult> Delete(int id)
         {
-            var category = await _context.Categories.Include(c => c.CourseCategories).ThenInclude(cc => cc.Course).FirstOrDefaultAsync(p => p.Id == id);
+            var category = await _context.Categories.Include(c => c.CourseCategories).ThenInclude(cc => cc.Course).FirstOrDefaultAsync(c => c.Id == id);
             if (category is null)
                 return NotFound();
 
@@ -112,7 +111,7 @@ namespace BackEndProject.Areas.Admin.Controllers
         [ActionName(nameof(Delete))]
         public async Task<IActionResult> DeletePost(int id)
         {
-            var category = await _context.Categories.Include(c => c.CourseCategories).ThenInclude(cc => cc.Course).FirstOrDefaultAsync(p => p.Id == id);
+            var category = await _context.Categories.Include(c => c.CourseCategories).ThenInclude(cc => cc.Course).FirstOrDefaultAsync(c => c.Id == id);
             if (category is null)
                 return NotFound();
 

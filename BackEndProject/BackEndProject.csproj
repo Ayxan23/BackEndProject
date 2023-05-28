@@ -19,8 +19,6 @@
 
   <ItemGroup>
     <Folder Include="Migrations\" />
-    <Folder Include="ViewModels\" />
-    <Folder Include="Utils\" />
   </ItemGroup>
 
 </Project>

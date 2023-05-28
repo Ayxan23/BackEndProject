@@ -3,7 +3,7 @@
     ViewData["Title"] = "Course Delete";
 }
 
-<div style="width:200px; height:auto">
+<div style="margin-left:15px; margin-bottom:10px; width:300px; height:auto">
     <img src="~/assets/img/course/@Model.Image" style="max-width:100%; max-height: auto" />
 </div>
 
@@ -22,7 +22,7 @@
     <h3>Categories:</h3>
     @foreach (var item in Model.CourseCategories)
     {
-        <h4>@item.Category.Name</h4>
+        <h4>@item.Category.Name;</h4>
     }
 </div>
 

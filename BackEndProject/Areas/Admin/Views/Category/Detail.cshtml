@@ -6,11 +6,11 @@
 <div style="color: dimgray; margin-left:15px">
     <h2>Name: @Model.Name</h2>
 </div>
-<div style="margin-left:15px; list-style:none; color: dodgerblue; display:flex; gap:5px; align-item: center">
+<div style="margin-left:15px; list-style:none; color: dodgerblue; display:flex; gap:5px; align-items: center">
     <h3>Courses:</h3>
     @foreach (var item in Model.CourseCategories)
     {
-        <h4>@item.Course.Name</h4>
+        <h4>@item.Course.Name;</h4>
     }
 </div>
 

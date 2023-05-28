@@ -23,6 +23,6 @@
         [Required]
         public double Price { get; set; }
 
-        public int[] CategoryIds { get; set;}
+        public int[]? CategoryIds { get; set;}
     }
 }

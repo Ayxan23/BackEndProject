@@ -1,0 +1,46 @@
+﻿@model List<Course>
+@{
+    ViewData["Title"] = "Course";
+}
+@await Component.InvokeAsync("Banner", ViewData["Title"])
+<!-- Course Start -->
+<div class="course-area pt-150 pb-150">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="course-title">
+                    <h3>search courses</h3>
+                </div>
+                <div class="course-form">
+                    <form id="search">
+                        <input type="search" placeholder="Search..." name="search" />
+                        <button type="submit">search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var course in Model)
+            {
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-course mb-70">
+                        <div class="course-img">
+                            <a asp-action="Detail" asp-route-id="@course.Id">
+                                <img src="~/assets/img/course/@course.Image" alt="course">
+                                <div class="course-hover">
+                                    <i class="fa fa-link"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="course-content">
+                            <h3><a asp-action="Detail" asp-route-id="@course.Id">@course.Name</a></h3>
+                            <p>@course.Description</p>
+                            <a class="default-btn" asp-action="Detail" asp-route-id="@course.Id">read more</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<!-- Course End -->

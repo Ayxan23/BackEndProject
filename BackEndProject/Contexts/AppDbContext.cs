@@ -7,9 +7,12 @@
         }
 
         public DbSet<Setting> Settings { get; set; } = null!;
-        public DbSet<Category> Categories { get; set; } = null!;
         public DbSet<Course> Courses { get; set; } = null!;
+        public DbSet<Category> Categories { get; set; } = null!;
         public DbSet<CourseCategory> CourseCategories { get; set; } = null!;
+        public DbSet<Event> Events { get; set; } = null!;
+        public DbSet<Speaker> Speakers { get; set; } = null!;
+        public DbSet<EventSpeaker> EventSpeakers { get; set; } = null!;
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
@@ -35,6 +38,8 @@
         {
             modelBuilder.Entity<Course>().HasQueryFilter(c => !c.IsDeleted);
             modelBuilder.Entity<Category>().HasQueryFilter(c => !c.IsDeleted);
+            modelBuilder.Entity<Event>().HasQueryFilter(e => !e.IsDeleted);
+            modelBuilder.Entity<Speaker>().HasQueryFilter(s => !s.IsDeleted);
 
             base.OnModelCreating(modelBuilder);
         }
