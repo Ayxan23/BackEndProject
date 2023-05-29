@@ -1,0 +1,46 @@
+﻿@model List<Teacher>
+@{
+    ViewData["Title"] = "Teacher";
+}
+<div class="content-wrapper">
+    <div class="row">
+        <div class="col-lg-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Teachers</h4>
+                    <div class="table-responsive">
+                        <a class="btn btn-primary" asp-action="Create">Create</a>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Image</th>
+                                    <th>FullName</th>
+                                    <th>Job</th>               
+
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var teacher in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            <img src="~/assets/img/teacher/@teacher.Image" />
+                                        </td>
+                                        <td>@teacher.FullName</td>
+                                        <td>@teacher.Job</td>
+                                        <td>
+                                            <a class="btn btn-success" asp-action="Detail" asp-route-id="@teacher.Id">Detail</a>
+                                            <a class="btn btn-warning" asp-action="Update" asp-route-id=@teacher.Id>Update</a>
+                                            <a class="btn btn-danger" asp-action="Delete" asp-route-id=@teacher.Id>Delete</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

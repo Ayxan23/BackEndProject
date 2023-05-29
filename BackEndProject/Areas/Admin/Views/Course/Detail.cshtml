@@ -4,12 +4,12 @@
 }
 
 <div style="margin-left:15px; margin-bottom:10px; width:300px; height:auto">
-    <img src="~/assets/img/course/@Model.Image" style="max-width:100%; max-height: auto" />
+    <img src="~/assets/img/course/@Model.Image" style="width:100%; max-height: auto" />
 </div>
 
 <div style="color: dimgray; margin-left:15px">
     <h2>Name: @Model.Name</h2>
-    <h3>Description: @Model.Description</h3>
+    <h3>Description: @Html.Raw(@Model.Description)</h3>
     <h3>Start: @Model.Start</h3>
     <h3>Duration: @Model.Duration</h3>
     <h3>ClassDuration: @Model.ClassDuration</h3>

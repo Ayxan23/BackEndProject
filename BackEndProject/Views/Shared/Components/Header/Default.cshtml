@@ -35,67 +35,25 @@
                 <div class="col-md-9 col-sm-9 col-xs-6">
                     <div class="content-wrapper text-right">
                         <!-- Main Menu Start -->
-                        <div class="main-menu">
+                        <div class="main-menu" style="display:flex; align-items:center; justify-content:center;">
                             <nav>
-                                <ul>
+                                <ul style="display:flex; gap:30px; margin-right:100px">
                                     <li><a asp-controller="Home" asp-action="Index">Home</a></li>
-                                    <li><a href="~/assets/about.html">About</a></li>
                                     <li>
                                         <a asp-controller="Course" asp-action="Index">courses</a>
-                                        <ul>
-                                            <li><a asp-controller="Course" asp-action="Index">Courses</a></li>
-                                            <li><a asp-controller="Course" asp-action="Details">Courses Details</a></li>
-                                        </ul>
                                     </li>
                                     <li>
                                         <a asp-controller="Event" asp-action="Index">event</a>
-                                        <ul>
-                                            <li><a href="~/assets/event.html">event</a></li>
-                                            <li><a href="~/assets/event-left-side-bar.html">event left sidebar</a></li>
-                                            <li><a href="~/assets/event-right-side-bar.html">event right sidebar</a></li>
-                                            <li><a href="~/assets/event-details.html">event details</a></li>
-                                        </ul>
                                     </li>
-                                    <li class="hidden-sm">
+                                    <li>
                                         <a asp-controller="Teacher" asp-action="Index">teacher</a>
-                                        <ul>
-                                            <li><a asp-controller="Teacher" asp-action="Index">teacher</a></li>
-                                            <li><a asp-controller="Teacher" asp-action="Detail">teacher details</a></li>
-                                        </ul>
                                     </li>
                                     <li>
                                         <a asp-controller="Blog" asp-action="Index">blog</a>
-                                        <ul>
-                                            <li><a href="~/assets/blog.html">blog</a></li>
-                                            <li><a href="~/assets/blog-left-side-bar.html">blog left sidebar</a></li>
-                                            <li><a href="~/assets/blog-right-side-bar.html">blog righ sidebar</a></li>
-                                            <li><a href="~/assets/blog-details.html">blog details</a></li>
-                                        </ul>
                                     </li>
-                                    <li><a href="~/assets/contact.html">Contact</a></li>
-                                    <li><a href="~/assets/#">Buy Now</a>
                                 </ul>
                             </nav>
                         </div>
-                        <!--Search Form Start-->
-                        <div class="search-btn">
-                            <ul data-toggle="dropdown" class="header-search search-toggle">
-                                <li class="search-menu">
-                                    <i class="fa fa-search"></i>
-                                </li>
-                            </ul>
-                            <div class="search">
-                                <div class="search-form">
-                                    <form id="search-form" action="#">
-                                        <input type="search" placeholder="Search here..." name="search" />
-                                        <button type="submit">
-                                            <span><i class="fa fa-search"></i></span>
-                                        </button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End of Search Form-->
                         <!-- Main Menu End -->
                     </div>
                 </div>

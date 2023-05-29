@@ -24,7 +24,6 @@ namespace BackEndProject.Controllers
                 courses = await _context.Courses.Where(c => c.Name.Contains(search)).OrderByDescending(c => c.ModifiedAt).ToListAsync();
             }
 
-
             return View(courses);
         }
 

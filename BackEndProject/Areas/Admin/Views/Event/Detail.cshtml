@@ -4,18 +4,15 @@
 }
 
 <div style="margin-left:15px; margin-bottom:10px; width:300px; height:auto">
-    <img src="~/assets/img/event/@Model.Image" style="max-width:100%; max-height: auto" />
+    <img src="~/assets/img/event/@Model.Image" style="width:100%; max-height: auto" />
 </div>
 
 <div style="color: dimgray; margin-left:15px">
     <h2>Name: @Model.Name</h2>
-    <h3>Description: @Model.Description</h3>
+    <h3>Description: @Html.Raw(@Model.Description)</h3>
     <h3>StartTime: @Model.StartTime</h3>
     <h3>EndTime: @Model.EndTime</h3>
     <h3>Venue: @Model.Venue</h3>
-    <h3>StartTime: @Model.StartTime.ToString("HH:mm tt")</h3>
-    <h3>StartTime: @Model.StartTime.ToString("dd")</h3>
-    <h3>StartTime: @Model.StartTime.ToString("MMMM")</h3>
 </div>
 <div style="margin-left:15px; list-style:none; color: dodgerblue; display:flex; gap:5px; align-items: center">
     <h3>Speakers:</h3>

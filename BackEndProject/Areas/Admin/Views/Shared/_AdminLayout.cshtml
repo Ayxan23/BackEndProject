@@ -197,6 +197,24 @@
                             <span class="menu-title">Speaker</span>
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Teacher" asp-action="Index">
+                            <i class="mdi mdi-view-headline menu-icon"></i>
+                            <span class="menu-title">Teacher</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Skill" asp-action="Index">
+                            <i class="mdi mdi-chart-pie menu-icon"></i>
+                            <span class="menu-title">Skill</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="SocialMedia" asp-action="Index">
+                            <i class="mdi mdi-view-headline menu-icon"></i>
+                            <span class="menu-title">SocialMedia</span>
+                        </a>
+                    </li>
                 </ul>
             </nav>
             <!-- partial -->
@@ -227,6 +245,15 @@
     <!-- endinject -->
     <!-- Custom js for this page-->
     <!-- End custom js for this page-->
+    <!--ckeditor-->
+    <script src="https://cdn.ckeditor.com/ckeditor5/38.0.1/classic/ckeditor.js"></script>
+    <script>
+        ClassicEditor
+            .create(document.querySelector('#editor'))
+            .catch(error => {
+                console.error(error);
+            });
+    </script>
 </body>
 
 </html>

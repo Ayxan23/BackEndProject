@@ -1,0 +1,70 @@
+﻿@model Teacher
+@{
+    ViewData["Title"] = "Teacher Detail";
+}
+@await Component.InvokeAsync("Banner", ViewData["Title"])
+
+<!-- Teacher Start -->
+<div class="teacher-details-area pt-150 pb-60">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 col-sm-5 col-xs-12">
+                <div class="teacher-details-img">
+                    <img src="~/assets/img/teacher/@Model.Image" style="width:470px; height:470px; object-fit:cover" alt="teacher">
+                </div>
+            </div>
+            <div class="col-md-7 col-sm-7 col-xs-12">
+                <div class="teacher-details-content ml-50">
+                    <h2>@Model.FullName</h2>
+                    <h5>@Model.Job</h5>
+                    <h4>about me</h4>
+                    <p>@Html.Raw(@Model.Description)</p>
+                    <ul>
+                        <li><span>degree: </span>@Model.Degree</li>
+                        <li><span>experience: </span>@Model.Experience</li>
+                        <li><span>hobbies: </span>@Model.Hobbies</li>
+                        <li><span>faculty: </span>@Model.Faculty</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-4">
+                <div class="teacher-contact">
+                    <h4>contact information</h4>
+                    <p><span>mail me : </span>@Model.Mail</p>
+                    <p><span>make a call : </span>@Model.Phone</p>
+                    <ul>
+                        @foreach (var socialMedia in Model.SocialMedias)
+                        {
+                            <li><a href="@socialMedia.Link"><i class="@socialMedia.ClassName"></i></a></li>
+                        }
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9 col-sm-8">
+                <div class="skill-area">
+                    <h4>@(Model.Skills.Count == 0 ? "" : "skills")</h4>
+                </div>
+                <div class="skill-wrapper">
+                    <div class="row">
+                        @foreach (var skill in Model.Skills)
+                        {                          
+                            <div class="col-sm-4">
+                                <div class="skill-bar-item" style="overflow:visible">
+                                <span>@skill.Name</span>
+                                <div class="progress">
+                                    <div data-wow-delay="1.2s" data-wow-duration="1.5s" style="width: @skill.Rate%; visibility: visible; animation-duration: 1.5s; animation-delay: 1.2s; animation-name: fadeInLeft;" data-progress="50%" class="progress-bar wow fadeInLeft">
+                                            <span style="right:-14px;" class="text-top">@skill.Rate</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Teacher End -->

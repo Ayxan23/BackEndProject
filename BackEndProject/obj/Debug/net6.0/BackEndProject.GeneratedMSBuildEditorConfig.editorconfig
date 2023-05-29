@@ -84,6 +84,46 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Areas/Admin/Views/Skill/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2tpbGxcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Areas/Admin/Views/Skill/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2tpbGxcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Areas/Admin/Views/Skill/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2tpbGxcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Areas/Admin/Views/Skill/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2tpbGxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Areas/Admin/Views/Skill/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2tpbGxcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Areas/Admin/Views/SocialMedia/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU29jaWFsTWVkaWFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Areas/Admin/Views/SocialMedia/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU29jaWFsTWVkaWFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Areas/Admin/Views/SocialMedia/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU29jaWFsTWVkaWFcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Areas/Admin/Views/SocialMedia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU29jaWFsTWVkaWFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Areas/Admin/Views/SocialMedia/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU29jaWFsTWVkaWFcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Areas/Admin/Views/Speaker/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3BlYWtlclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -104,6 +144,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3BlYWtlclxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Areas/Admin/Views/Teacher/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVhY2hlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Areas/Admin/Views/Teacher/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVhY2hlclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Areas/Admin/Views/Teacher/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVhY2hlclxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Areas/Admin/Views/Teacher/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVhY2hlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Areas/Admin/Views/Teacher/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVhY2hlclxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -118,6 +178,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Views/Course/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Views/Event/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Views/Event/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Views/Home/Index.cshtml]
@@ -138,6 +206,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Views/Teacher/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Views/Teacher/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Aykhan/OneDrive/Desktop/BE HT/BackEndProject/BackEndProject/Views/_ViewImports.cshtml]

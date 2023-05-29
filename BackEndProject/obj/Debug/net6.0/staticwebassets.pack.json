@@ -361,6 +361,322 @@
       "PackagePath": "staticwebassets\\assets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
     },
     {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\LICENSE.md",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\README.md",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\ckeditor.d.ts",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\ckeditor.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\ckeditor.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\ckeditor.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\ckeditor.js.map",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\ckeditor.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\index.html",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\sample\\css\\sample.css",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\sample\\css\\sample.css"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\sample\\img\\bg.png",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\sample\\img\\bg.png"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\sample\\img\\github.svg",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\sample\\img\\github.svg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\sample\\img\\logo.svg",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\sample\\img\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\sample\\img\\umbrellas.jpg",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\sample\\img\\umbrellas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\af.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\af.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\ar.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\ar.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\ast.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\ast.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\az.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\az.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\bg.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\bg.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\bn.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\bn.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\bs.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\bs.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\ca.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\ca.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\cs.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\cs.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\da.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\da.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\de-ch.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\de-ch.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\de.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\de.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\el.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\el.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\en-au.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\en-au.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\en-gb.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\en-gb.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\eo.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\eo.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\es-co.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\es-co.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\es.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\es.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\et.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\et.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\eu.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\eu.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\fa.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\fa.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\fi.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\fi.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\fr.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\fr.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\gl.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\gl.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\gu.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\gu.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\he.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\he.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\hi.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\hi.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\hr.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\hr.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\hu.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\hu.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\id.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\id.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\it.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\it.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\ja.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\ja.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\jv.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\jv.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\km.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\km.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\kn.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\kn.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\ko.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\ko.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\ku.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\ku.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\lt.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\lt.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\lv.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\lv.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\ms.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\ms.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\nb.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\nb.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\ne.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\ne.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\nl.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\nl.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\no.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\no.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\oc.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\oc.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\pl.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\pl.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\pt-br.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\pt-br.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\pt.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\pt.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\ro.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\ro.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\ru.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\ru.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\si.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\si.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\sk.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\sk.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\sl.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\sl.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\sq.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\sq.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\sr-latn.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\sr-latn.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\sr.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\sr.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\sv.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\sv.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\th.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\th.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\tk.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\tk.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\tr.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\tr.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\tt.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\tt.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\ug.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\ug.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\uk.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\uk.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\ur.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\ur.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\uz.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\uz.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\vi.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\vi.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\zh-cn.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\zh-cn.js"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\ckeditor5-build-classic\\translations\\zh.js",
+      "PackagePath": "staticwebassets\\assets\\ckeditor5-build-classic\\translations\\zh.js"
+    },
+    {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\css\\animate.css",
       "PackagePath": "staticwebassets\\assets\\css\\animate.css"
     },
@@ -585,6 +901,10 @@
       "PackagePath": "staticwebassets\\assets\\img\\course\\0b70f78d-6ed3-4780-a1fa-147f30d770b8-course5.jpg"
     },
     {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\75a2b045-7017-4f96-ad45-4d6541c99369-event10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\course\\75a2b045-7017-4f96-ad45-4d6541c99369-event10.jpg"
+    },
+    {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\7df5a34b-4252-4240-b6f2-3e7bd19803b9-course8.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\course\\7df5a34b-4252-4240-b6f2-3e7bd19803b9-course8.jpg"
     },
@@ -643,6 +963,10 @@
     {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\25cee632-3ef7-4d55-9062-511ba8165ef0-event8.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\event\\25cee632-3ef7-4d55-9062-511ba8165ef0-event8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\43626e6e-8ce4-4db6-9da8-b8a26528ef17-event11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\event\\43626e6e-8ce4-4db6-9da8-b8a26528ef17-event11.jpg"
     },
     {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\event\\6a27ae07-9f29-4f96-9000-481b911e9b2d-event9.jpg",
@@ -783,6 +1107,14 @@
     {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\slider\\slider3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\slider\\slider3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\84add9b0-6acc-4172-b515-2cb78e66cfad-event9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\teacher\\84add9b0-6acc-4172-b515-2cb78e66cfad-event9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\d95488b9-0a45-4417-bc24-4dd18dcf443e-speaker1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\teacher\\d95488b9-0a45-4417-bc24-4dd18dcf443e-speaker1.jpg"
     },
     {
       "Id": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher-details.jpg",

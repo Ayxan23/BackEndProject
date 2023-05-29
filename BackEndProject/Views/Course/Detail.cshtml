@@ -14,7 +14,7 @@
                     </div>
                     <div class="course-details-content">
                         <h2>@Model.Course.Name</h2>
-                        <p>@Model.Course.Description</p>
+                        <p>@Html.Raw(@Model.Course.Description)</p>
                         <div class="course-details-right" style="width:100%; height:auto;">
                             <h3>COURSE FEATURES</h3>
                             <ul>

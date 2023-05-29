@@ -1,0 +1,71 @@
+﻿@model TeacherViewModel
+@{
+    ViewData["Title"] = "Update";
+}
+<div class="content-wrapper">
+    <div class="row">
+        <div class="col-md-12 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Teacher Update</h4>
+
+                    <form class="forms-sample" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="Image">Image</label>
+                            <input class="form-control" asp-for="Image" placeholder="Image" accept="image/*">
+                            <span asp-validation-for="Image" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="FullName">FullName</label>
+                            <input class="form-control" asp-for="FullName" placeholder="FullName">
+                            <span asp-validation-for="FullName" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="Job">Job</label>
+                            <input class="form-control" asp-for="Job" placeholder="Job">
+                            <span asp-validation-for="Job" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="Description">Description</label>
+                            <textarea class="form-control" id="editor" asp-for="Description" placeholder="Description"></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="Degree">Degree</label>
+                            <input class="form-control" asp-for="Degree" placeholder="Degree">
+                            <span asp-validation-for="Degree" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="Experience">Experience</label>
+                            <input class="form-control" asp-for="Experience" placeholder="Experience">
+                            <span asp-validation-for="Experience" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="Hobbies">Hobbies</label>
+                            <input class="form-control" asp-for="Hobbies" placeholder="Hobbies">
+                            <span asp-validation-for="Hobbies" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="Faculty">Faculty</label>
+                            <input class="form-control" asp-for="Faculty" placeholder="Faculty">
+                            <span asp-validation-for="Faculty" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="Mail">Mail</label>
+                            <input class="form-control" asp-for="Mail" placeholder="Mail">
+                            <span asp-validation-for="Mail" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="Phone">Phone</label>
+                            <input class="form-control" asp-for="Phone" placeholder="Phone">
+                            <span asp-validation-for="Phone" class="text-danger"></span>
+                        </div>
+                        <button type="submit" class="btn btn-warning mr-2">Update</button>
+                        <a class="btn btn-light" asp-action="Index">Cancel</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

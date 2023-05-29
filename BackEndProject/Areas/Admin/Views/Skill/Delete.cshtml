@@ -1,0 +1,20 @@
+﻿@model Skill
+@{
+    ViewData["Title"] = "Skill Delete";
+}
+
+<div style="color: dimgray; margin-left:15px">
+    <h2>Name: @Model.Name</h2>
+    <h3>Rate: @Model.Rate%</h3>
+</div>
+<div style="margin-left:15px; list-style:none; color: dodgerblue; display:flex; gap:5px; align-items: center">
+    <h3>Teacher:</h3>
+    <h4>@Model.Teacher.FullName;</h4>
+</div>
+
+<div style="display: flex; gap: 15px">
+    <a class="btn btn-info" asp-action="Index">Go Back</a>
+    <form method="post">
+        <button type="submit" class="btn btn-danger">Delete</button>
+    </form>
+</div>

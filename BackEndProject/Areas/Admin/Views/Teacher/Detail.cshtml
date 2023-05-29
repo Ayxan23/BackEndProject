@@ -1,0 +1,38 @@
+﻿@model Teacher
+@{
+    ViewData["Title"] = "Teacher Detail";
+}
+
+<div style="margin-left:15px; margin-bottom:10px; width:300px; height:auto">
+    <img src="~/assets/img/teacher/@Model.Image" style="width:100%; max-height: auto" />
+</div>
+
+<div style="color: dimgray; margin-left:15px">
+    <h2>Name: @Model.FullName</h2>
+    <h3>Job: @Model.Job</h3>
+    <h3>Description: @Html.Raw(@Model.Description)</h3>
+    <h3>Degree: @Model.Degree</h3>
+    <h3>Experience: @Model.Experience</h3>
+    <h3>Hobbies: @Model.Hobbies</h3>
+    <h3>Faculty: @Model.Faculty</h3>
+    <h3>Mail: @Model.Mail</h3>
+    <h3>Phone: @Model.Phone</h3>
+</div>
+<div style="margin-left:15px; list-style:none; color: dodgerblue; display:flex; gap:5px; align-items: center">
+    <h3>Skills:</h3>
+    @foreach (var item in Model.Skills)
+    {
+        <h4>@item.Name @item.Rate%;</h4>
+    }
+</div>
+<div style="margin-left:15px; list-style:none; color: dodgerblue; display:flex; gap:5px; align-items: center">
+    <h3>Social Medias:</h3>
+    @foreach (var item in Model.SocialMedias)
+    {
+        <h4>@item.Link;</h4>
+    }
+</div>
+
+<div style="display: flex; gap: 15px">
+    <a class="btn mx-3 btn-info" asp-action="Index">Go Back</a>
+</div>

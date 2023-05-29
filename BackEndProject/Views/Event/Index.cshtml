@@ -1,0 +1,41 @@
+﻿@model List<Event>
+@{
+    ViewData["Title"] = "Events";
+}
+@await Component.InvokeAsync("Banner", ViewData["Title"])
+<!-- Event Start -->
+<div class="event-area three text-center pt-150 pb-150">
+    <div class="container">
+        <div class="row">
+            @foreach (var eventItem in Model)
+            {
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-event mb-60">
+                        <div class="event-img">
+                            <a asp-action="Detail" asp-route-id="@eventItem.Id">
+                                <img src="~/assets/img/event/@eventItem.Image" alt="event">
+                                <div class="course-hover">
+                                    <i class="fa fa-link"></i>
+                                </div>
+                            </a>
+                            <div class="event-date">
+                                <h3>@eventItem.StartTime.ToString("dd")<span>@eventItem.StartTime.ToString("MMMM")</span></h3>
+                            </div>
+                        </div>
+                        <div class="event-content text-left">
+                            <h4><a asp-action="Detail" asp-route-id="@eventItem.Id">@eventItem.Name</a></h4>
+                            <ul>
+                                <li><span>time:</span> @eventItem.StartTime.ToString("HH:mm tt") - @eventItem.EndTime.ToString("HH:mm tt")</li>
+                                <li><span>venue:</span> @eventItem.Venue</li>
+                            </ul>
+                            <div class="event-content-right">
+                                <a class="default-btn" asp-action="Detail" asp-route-id="@eventItem.Id">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<!-- Event End -->

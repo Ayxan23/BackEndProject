@@ -1,0 +1,33 @@
+﻿@model List<Teacher>
+@{
+    ViewData["Title"] = "Teachers";
+}
+@await Component.InvokeAsync("Banner", ViewData["Title"])
+<!-- Teacher Start -->
+<div class="teacher-area pt-150 pb-105">
+    <div class="container">
+        <div class="row">
+            @foreach (var teacherItem in Model)
+            {
+                <div class="col-md-3 col-sm-4 col-xs-12">
+                    <div class="single-teacher mb-45">
+                        <div class="single-teacher-img">
+                            <a asp-action="Detail" asp-route-id="@teacherItem.Id"><img style="width:270px; height:270px; object-fit:cover" src="~/assets/img/teacher/@teacherItem.Image" alt="teacher"></a>
+                        </div>
+                        <div class="single-teacher-content text-center">
+                            <h2><a asp-action="Detail" asp-route-id="@teacherItem.Id">@teacherItem.FullName</a></h2>
+                            <h4>@teacherItem.Job</h4>
+                            <ul>
+                                @foreach (var socialMedia in teacherItem.SocialMedias)
+                                {
+                                    <li><a href="@socialMedia.Link"><i class="@socialMedia.ClassName"></i></a></li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<!-- Teacher End -->
