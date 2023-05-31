@@ -20,6 +20,8 @@
         public DbSet<Skill> Skills { get; set; } = null!;
         public DbSet<SocialMedia> SocialMedias { get; set; } = null!;
 
+        public DbSet<Blog> Blogs { get; set; } = null!;
+
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             var entries = ChangeTracker.Entries<BaseEntity>();
@@ -48,9 +50,11 @@
             modelBuilder.Entity<Event>().HasQueryFilter(e => !e.IsDeleted);
             modelBuilder.Entity<Speaker>().HasQueryFilter(s => !s.IsDeleted);
 
-            modelBuilder.Entity<Teacher>().HasQueryFilter(e => !e.IsDeleted);
+            modelBuilder.Entity<Teacher>().HasQueryFilter(t => !t.IsDeleted);
             modelBuilder.Entity<Skill>().HasQueryFilter(s => !s.IsDeleted);
-            modelBuilder.Entity<SocialMedia>().HasQueryFilter(s => !s.IsDeleted);
+            modelBuilder.Entity<SocialMedia>().HasQueryFilter(sm => !sm.IsDeleted);
+
+            modelBuilder.Entity<Blog>().HasQueryFilter(b => !b.IsDeleted);
 
             base.OnModelCreating(modelBuilder);
         }

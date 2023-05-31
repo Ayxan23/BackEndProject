@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vwaD5iS5k1qGdwjQWc9uIdZ61FZYHzvm4//P7S0njkk=",
+  "Hash": "u5+uIGLaKmq9IyHhlwiix4jlCvoe+FH7M0OyuZD2XMU=",
   "Source": "BackEndProject",
   "BasePath": "_content/BackEndProject",
   "Mode": "Default",
@@ -3553,6 +3553,40 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\banner\\banner.jpg"
     },
     {
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\70184b5d-08a9-429d-bc66-26090e8c3993-blog3.jpg",
+      "SourceId": "BackEndProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "BasePath": "_content/BackEndProject",
+      "RelativePath": "assets/img/blog/70184b5d-08a9-429d-bc66-26090e8c3993-blog3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\blog\\70184b5d-08a9-429d-bc66-26090e8c3993-blog3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\9e18914e-68f6-49e1-8cd7-894e95fecef2-blog-detail.jpg",
+      "SourceId": "BackEndProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "BasePath": "_content/BackEndProject",
+      "RelativePath": "assets/img/blog/9e18914e-68f6-49e1-8cd7-894e95fecef2-blog-detail.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\blog\\9e18914e-68f6-49e1-8cd7-894e95fecef2-blog-detail.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\blog\\blog1.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
@@ -3840,6 +3874,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\course\\0b70f78d-6ed3-4780-a1fa-147f30d770b8-course5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\416fa3dc-01c2-4997-a2c3-6cc462fb0c15-23 gng dc.png",
+      "SourceId": "BackEndProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "BasePath": "_content/BackEndProject",
+      "RelativePath": "assets/img/course/416fa3dc-01c2-4997-a2c3-6cc462fb0c15-23 gng dc.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\course\\416fa3dc-01c2-4997-a2c3-6cc462fb0c15-23 gng dc.png"
     },
     {
       "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\course\\75a2b045-7017-4f96-ad45-4d6541c99369-event10.jpg",
@@ -4573,6 +4624,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\logo\\logo.png"
     },
     {
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\logo\\logo1.png",
+      "SourceId": "BackEndProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
+      "BasePath": "_content/BackEndProject",
+      "RelativePath": "assets/img/logo/logo1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\logo\\logo1.png"
+    },
+    {
       "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\logo\\logo2.png",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
@@ -4743,12 +4811,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\teacher\\84add9b0-6acc-4172-b515-2cb78e66cfad-event9.jpg"
     },
     {
-      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\d95488b9-0a45-4417-bc24-4dd18dcf443e-speaker1.jpg",
+      "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\f40a4896-4bae-4228-bcf9-6fec74e4b56c-profilfotom.jpg",
       "SourceId": "BackEndProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\",
       "BasePath": "_content/BackEndProject",
-      "RelativePath": "assets/img/teacher/d95488b9-0a45-4417-bc24-4dd18dcf443e-speaker1.jpg",
+      "RelativePath": "assets/img/teacher/f40a4896-4bae-4228-bcf9-6fec74e4b56c-profilfotom.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -4757,7 +4825,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\img\\teacher\\d95488b9-0a45-4417-bc24-4dd18dcf443e-speaker1.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\img\\teacher\\f40a4896-4bae-4228-bcf9-6fec74e4b56c-profilfotom.jpg"
     },
     {
       "Identity": "C:\\Users\\Aykhan\\OneDrive\\Desktop\\BE HT\\BackEndProject\\BackEndProject\\wwwroot\\assets\\img\\teacher\\teacher1.jpg",

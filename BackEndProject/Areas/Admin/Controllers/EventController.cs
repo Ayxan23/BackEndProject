@@ -1,5 +1,7 @@
 ﻿using BackEndProject.Areas.Admin.ViewModels;
 using BackEndProject.Models;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
 
 namespace BackEndProject.Areas.Admin.Controllers
 {
@@ -15,6 +17,7 @@ namespace BackEndProject.Areas.Admin.Controllers
             _webHostEnvironment = webHostEnvironment;
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Index()
         {
             var events = await _context.Events.OrderByDescending(e => e.ModifiedAt).ToListAsync();
@@ -22,6 +25,7 @@ namespace BackEndProject.Areas.Admin.Controllers
             return View(events);
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         public IActionResult Create()
         {
             ViewBag.Speakers = _context.Speakers.AsEnumerable();
@@ -30,6 +34,7 @@ namespace BackEndProject.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Create(EventViewModel eventViewModel)
         {
             ViewBag.Speakers = _context.Speakers.AsEnumerable();
@@ -114,6 +119,7 @@ namespace BackEndProject.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Detail(int id)
         {
             var foundEvent = await _context.Events.Include(e => e.EventSpeakers).ThenInclude(es => es.Speaker).FirstOrDefaultAsync(e => e.Id == id);
@@ -123,6 +129,7 @@ namespace BackEndProject.Areas.Admin.Controllers
             return View(foundEvent);
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Update(int id)
         {
             var foundEvent = await _context.Events.Include(e => e.EventSpeakers).ThenInclude(es => es.Speaker).FirstOrDefaultAsync(e => e.Id == id);
@@ -146,6 +153,7 @@ namespace BackEndProject.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Update(int id, EventViewModel eventViewModel)
         {
             ViewBag.Speakers = _context.Speakers.AsEnumerable();
@@ -220,6 +228,7 @@ namespace BackEndProject.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id)
         {
             var foundEvent = await _context.Events.Include(e => e.EventSpeakers).ThenInclude(es => es.Speaker).FirstOrDefaultAsync(e => e.Id == id);
@@ -232,6 +241,7 @@ namespace BackEndProject.Areas.Admin.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [ActionName(nameof(Delete))]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeletePost(int id)
         {
             var foundEvent = await _context.Events.Include(e => e.EventSpeakers).ThenInclude(es => es.Speaker).FirstOrDefaultAsync(e => e.Id == id);

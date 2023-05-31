@@ -1,4 +1,7 @@
-﻿namespace BackEndProject.Areas.Admin.Controllers
+﻿using Microsoft.AspNetCore.Authorization;
+using System.Data;
+
+namespace BackEndProject.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class SpeakerController : Controller
@@ -12,6 +15,7 @@
             _webHostEnvironment = webHostEnvironment;
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Index()
         {
             var speakers = await _context.Speakers.OrderByDescending(s => s.ModifiedAt).ToListAsync();
@@ -19,6 +23,7 @@
             return View(speakers);
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         public IActionResult Create()
         {
             return View();
@@ -26,6 +31,7 @@
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Create(SpeakerViewModel speakerViewModel)
         {
             if (!ModelState.IsValid)
@@ -68,6 +74,7 @@
             return RedirectToAction(nameof(Index));
         }
 
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Detail(int id)
         {
             var speaker = await _context.Speakers.Include(c => c.EventSpeakers).ThenInclude(es => es.Event).FirstOrDefaultAsync(s => s.Id == id);
@@ -77,6 +84,7 @@
             return View(speaker);
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Update(int id)
         {
             var speaker = await _context.Speakers.Include(c => c.EventSpeakers).ThenInclude(es => es.Event).FirstOrDefaultAsync(s => s.Id == id);
@@ -95,6 +103,7 @@
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Update(int id, SpeakerViewModel speakerViewModel)
         {
             if (!ModelState.IsValid)
@@ -134,6 +143,7 @@
             return RedirectToAction(nameof(Index));
         }
 
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id)
         {
             var speaker = await _context.Speakers.Include(c => c.EventSpeakers).ThenInclude(es => es.Event).FirstOrDefaultAsync(s => s.Id == id);
@@ -146,6 +156,7 @@
         [HttpPost]
         [ValidateAntiForgeryToken]
         [ActionName(nameof(Delete))]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeletePost(int id)
         {
             var speaker = await _context.Speakers.Include(c => c.EventSpeakers).ThenInclude(es => es.Event).FirstOrDefaultAsync(s => s.Id == id);

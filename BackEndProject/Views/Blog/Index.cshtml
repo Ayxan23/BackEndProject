@@ -1,0 +1,46 @@
+﻿@model List<Blog>
+@{
+    ViewData["Title"] = "Blogs";
+}
+@await Component.InvokeAsync("Banner", ViewData["Title"])
+<!-- Blog Start -->
+<div class="blog-area pt-150 pb-150">
+    <div class="container">
+        <div class="row">
+            @foreach (var blog in Model)
+            {
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-blog mb-60">
+                        <div class="blog-img">
+                            <a asp-action="Detail" asp-route-id="@blog.Id"><img src="~/assets/img/blog/@blog.Image" alt="blog" style="width:370px; height:250px; object-fit:cover;"></a>
+                            <div class="blog-hover">
+                                <i class="fa fa-link"></i>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-top">
+                                <p>By @blog.CreatedBy  /  @blog.CreatedAt.ToString("MMMM dd, yyy")</p>
+                            </div>
+                            <div class="blog-bottom">
+                                <h2><a asp-action="Detail" asp-route-id="@blog.Id">@blog.Name</a></h2>
+                                <a asp-action="Detail" asp-route-id="@blog.Id">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        @*<div class="row">
+        <div class="col-xs-12">
+        <div class="pagination">
+        <ul>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        </ul>
+        </div>
+        </div>
+        </div>*@
+    </div>
+</div>
+<!-- Blog End -->

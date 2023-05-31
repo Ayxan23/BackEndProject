@@ -11,7 +11,7 @@
 
         public async Task<IActionResult> Index()
         {
-            var foundEvents = await _context.Events.Include(e => e.EventSpeakers).ThenInclude(es => es.Speaker).OrderByDescending(e => e.ModifiedAt).ToListAsync();
+            var foundEvents = await _context.Events.Include(e => e.EventSpeakers).ThenInclude(es => es.Speaker).OrderBy(e => e.StartTime).ToListAsync();
 
             return View(foundEvents);
         }

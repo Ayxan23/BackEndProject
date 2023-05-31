@@ -1,0 +1,22 @@
+﻿@model Blog
+@{
+    ViewData["Title"] = "Blog Delete";
+}
+
+<div style="margin-left:15px; margin-bottom:10px; width:300px; height:auto">
+    <img src="~/assets/img/blog/@Model.Image" style="width:100%; max-height: auto" />
+</div>
+
+<div style="color: dimgray; margin-left:15px">
+    <h2>Name: @Model.Name</h2>
+    <h3>CreatedAt: @Model.CreatedAt</h3>
+    <h3>CreatedBy: @Model.CreatedBy</h3>
+    <h3>Description: @Html.Raw(@Model.Description)</h3>
+</div>
+
+<div style="display: flex; gap: 15px">
+    <a class="btn btn-info" asp-action="Index">Go Back</a>
+    <form method="post">
+        <button type="submit" class="btn btn-danger">Delete</button>
+    </form>
+</div>

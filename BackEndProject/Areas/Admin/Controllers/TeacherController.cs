@@ -1,6 +1,5 @@
-﻿using BackEndProject.Areas.Admin.ViewModels;
-using Microsoft.AspNetCore.Mvc;
-using NuGet.Protocol.Plugins;
+﻿using Microsoft.AspNetCore.Authorization;
+using System.Data;
 
 namespace BackEndProject.Areas.Admin.Controllers
 {
@@ -16,6 +15,7 @@ namespace BackEndProject.Areas.Admin.Controllers
             _webHostEnvironment = webHostEnvironment;
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Index()
         {
             var teachers = await _context.Teachers.OrderByDescending(t => t.ModifiedAt).ToListAsync();
@@ -23,6 +23,7 @@ namespace BackEndProject.Areas.Admin.Controllers
             return View(teachers);
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         public IActionResult Create()
         {
             return View();
@@ -30,6 +31,7 @@ namespace BackEndProject.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Create(TeacherViewModel teacherViewModel)
         {
             if (!ModelState.IsValid)
@@ -79,7 +81,7 @@ namespace BackEndProject.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Detail(int id)
         {
             var teacher = await _context.Teachers.Include(t => t.SocialMedias).Include(t => t.Skills).FirstOrDefaultAsync(t => t.Id == id);
@@ -89,6 +91,7 @@ namespace BackEndProject.Areas.Admin.Controllers
             return View(teacher);
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Update(int id)
         {
             var teacher = await _context.Teachers.Include(t => t.SocialMedias).Include(t => t.Skills).FirstOrDefaultAsync(t => t.Id == id);
@@ -114,6 +117,7 @@ namespace BackEndProject.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Update(int id, TeacherViewModel teacherViewModel)
         {
             if (!ModelState.IsValid)
@@ -160,6 +164,7 @@ namespace BackEndProject.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id)
         {
             var teacher = await _context.Teachers.Include(t => t.SocialMedias).Include(t => t.Skills).FirstOrDefaultAsync(t => t.Id == id);
@@ -172,6 +177,7 @@ namespace BackEndProject.Areas.Admin.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [ActionName(nameof(Delete))]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeletePost(int id)
         {
             var teacher = await _context.Teachers.Include(t => t.SocialMedias).Include(t => t.Skills).FirstOrDefaultAsync(t => t.Id == id);

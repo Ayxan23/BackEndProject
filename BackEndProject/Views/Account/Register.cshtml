@@ -1,0 +1,51 @@
+﻿@model RegisterViewModel
+@{
+    ViewData["Title"] = "Sign Up";
+}
+@await Component.InvokeAsync("Banner", ViewData["Title"])
+<div class="login-area pt-150 pb-150">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <div class="login">
+                    <div class="login-form-container">
+                        <div class="login-text">
+                            <h2>sign up</h2>
+                            <span>Please sign up using account detail bellow.</span>
+                        </div>
+                        <div class="login-form">
+                            <form method="post">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                                <input asp-for="Fullname" placeholder="Fullname">
+                                <div><span asp-validation-for="Fullname" class="text-danger"></span></div>
+
+                                <input asp-for="Username" placeholder=" Username">
+                                <div><span asp-validation-for="Username" class="text-danger"></span></div>
+
+                                <input asp-for="Email" placeholder=" Email">
+                                <div><span asp-validation-for="Email" class="text-danger"></span></div>
+
+                                <input asp-for="Password" placeholder="Password">
+                                <div><span asp-validation-for="Password" class="text-danger"></span></div>
+
+                                <input asp-for="ConfirmPassword" placeholder="Confirm Password">
+                                <div><span asp-validation-for="ConfirmPassword" class="text-danger"></span></div>
+
+                                <div class="login-toggle-btn">
+                                    <a asp-action="Login">Already have an account ?</a>
+                                </div>
+
+                                <div class="button-box" style="display:flex; justify-content:center; width:100%">
+                                    <button type="submit" class="default-btn">Sign Up</button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

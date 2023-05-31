@@ -1,4 +1,7 @@
-﻿namespace BackEndProject.Areas.Admin.Controllers
+﻿using Microsoft.AspNetCore.Authorization;
+using System.Data;
+
+namespace BackEndProject.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class SocialMediaController : Controller
@@ -10,6 +13,7 @@
             _context = context;
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Index()
         {
             var socialMedias = await _context.SocialMedias.OrderByDescending(sm => sm.ModifiedAt).ToListAsync();
@@ -17,6 +21,7 @@
             return View(socialMedias);
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         public IActionResult Create()
         {
             ViewBag.Teachers = _context.Teachers.AsEnumerable();
@@ -25,6 +30,7 @@
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Create(SocialMediaViewModel socialMediaViewModel)
         {
             ViewBag.Teachers = _context.Teachers.AsEnumerable();
@@ -54,6 +60,7 @@
             return RedirectToAction(nameof(Index));
         }
 
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Detail(int id)
         {
             var socialMedia = await _context.SocialMedias.Include(sm => sm.Teacher).FirstOrDefaultAsync(sm => sm.Id == id);
@@ -63,6 +70,7 @@
             return View(socialMedia);
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Update(int id)
         {
             var socialMedia = await _context.SocialMedias.Include(sm => sm.Teacher).FirstOrDefaultAsync(sm => sm.Id == id);
@@ -84,6 +92,7 @@
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Update(int id, SocialMediaViewModel socialMediaViewModel)
         {
             ViewBag.Teachers = _context.Teachers.AsEnumerable();
@@ -112,6 +121,7 @@
             return RedirectToAction(nameof(Index));
         }
 
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id)
         {
             var socialMedia = await _context.SocialMedias.Include(sm => sm.Teacher).FirstOrDefaultAsync(sm => sm.Id == id);
@@ -124,6 +134,7 @@
         [HttpPost]
         [ValidateAntiForgeryToken]
         [ActionName(nameof(Delete))]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeletePost(int id)
         {
             var socialMedia = await _context.SocialMedias.Include(sm => sm.Teacher).FirstOrDefaultAsync(sm => sm.Id == id);

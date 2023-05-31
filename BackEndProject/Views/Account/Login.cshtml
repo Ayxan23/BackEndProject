@@ -1,0 +1,48 @@
+﻿@model LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+}
+@await Component.InvokeAsync("Banner", ViewData["Title"])
+<div class="login-area pt-150 pb-150">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <div class="login">
+                    <div class="login-form-container">
+                        <div class="login-text">
+                            <h2>login</h2>
+                            <span>Please login using account detail bellow.</span>
+                        </div>
+                        <div class="login-form">
+                            <form method="post">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                                <input asp-for="Username" placeholder=" Username">
+                                <div><span asp-validation-for="Username" class="text-danger"></span></div>
+
+                                <input asp-for="Password" placeholder="Password">
+                                <div><span asp-validation-for="Password" class="text-danger"></span></div>
+
+                                <div class="login-toggle-btn">
+                                    <input asp-for="RememberMe">
+                                    <label for="RememberMe">Remember me</label>
+                                </div>
+
+                                <div class="login-toggle-btn" style="display:flex; justify-content:space-between;">
+                                    <a asp-action="ForgotPassword">Forgot password ?</a>
+                                    <a asp-action="Register">Don't have an account ?</a>
+                                </div>
+
+                                <div class="button-box" style="display:flex; justify-content:center; width:100%">
+                                    <button type="submit" class="default-btn">Login</button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

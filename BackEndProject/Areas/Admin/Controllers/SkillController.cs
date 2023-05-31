@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
+using System.Data;
 
 namespace BackEndProject.Areas.Admin.Controllers
 {
@@ -12,6 +14,7 @@ namespace BackEndProject.Areas.Admin.Controllers
             _context = context;
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Index()
         {
             var skills = await _context.Skills.OrderByDescending(s => s.ModifiedAt).ToListAsync();
@@ -19,6 +22,7 @@ namespace BackEndProject.Areas.Admin.Controllers
             return View(skills);
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         public IActionResult Create()
         {
             ViewBag.Teachers = _context.Teachers.AsEnumerable();
@@ -27,6 +31,7 @@ namespace BackEndProject.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Create(SkillViewModel skillViewModel)
         {
             ViewBag.Teachers = _context.Teachers.AsEnumerable();
@@ -56,6 +61,7 @@ namespace BackEndProject.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Detail(int id)
         {
             var skill = await _context.Skills.Include(s => s.Teacher).FirstOrDefaultAsync(s => s.Id == id);
@@ -65,6 +71,7 @@ namespace BackEndProject.Areas.Admin.Controllers
             return View(skill);
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Update(int id)
         {
             var skill = await _context.Skills.Include(s => s.Teacher).FirstOrDefaultAsync(s => s.Id == id);
@@ -86,6 +93,7 @@ namespace BackEndProject.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Update(int id, SkillViewModel skillViewModel)
         {
             ViewBag.Teachers = _context.Teachers.AsEnumerable();
@@ -113,6 +121,7 @@ namespace BackEndProject.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id)
         {
             var skill = await _context.Skills.Include(s => s.Teacher).FirstOrDefaultAsync(s => s.Id == id);
@@ -125,6 +134,7 @@ namespace BackEndProject.Areas.Admin.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [ActionName(nameof(Delete))]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeletePost(int id)
         {
             var skill = await _context.Skills.Include(s => s.Teacher).FirstOrDefaultAsync(s => s.Id == id);

@@ -1,4 +1,7 @@
-﻿namespace BackEndProject.Areas.Admin.Controllers
+﻿using Microsoft.AspNetCore.Authorization;
+using System.Data;
+
+namespace BackEndProject.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class CourseController : Controller
@@ -12,6 +15,7 @@
             _webHostEnvironment = webHostEnvironment;
         }
 
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Index()
         {
             var courses = await _context.Courses.OrderByDescending(c => c.ModifiedAt).ToListAsync();
@@ -19,7 +23,7 @@
             return View(courses);
         }
 
-
+        [Authorize(Roles = "Admin,Moderator")]
         public IActionResult Create()
         {
             ViewBag.Categories = _context.Categories.AsEnumerable();
@@ -28,6 +32,7 @@
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Create(CourseViewModel courseViewModel)
         {
             ViewBag.Categories = _context.Categories.AsEnumerable();
@@ -109,7 +114,7 @@
             return RedirectToAction(nameof(Index));
         }
 
-
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Detail(int id)
         {
             var course = await _context.Courses.Include(c => c.CourseCategories).ThenInclude(cc => cc.Category).FirstOrDefaultAsync(c => c.Id == id);
@@ -119,7 +124,7 @@
             return View(course);
         }
 
-
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Update(int id)
         {
             var course = await _context.Courses.Include(c => c.CourseCategories).ThenInclude(cc => cc.Category).FirstOrDefaultAsync(c => c.Id == id);
@@ -147,6 +152,7 @@
 
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,Moderator")]
         public async Task<IActionResult> Update(int id, CourseViewModel courseViewModel)
         {
             ViewBag.Categories = _context.Categories.AsEnumerable();
@@ -225,7 +231,7 @@
             return RedirectToAction(nameof(Index));
         }
 
-
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id)
         {
             var course = await _context.Courses.Include(c => c.CourseCategories).ThenInclude(cc => cc.Category).FirstOrDefaultAsync(c => c.Id == id);
@@ -238,6 +244,7 @@
         [HttpPost]
         [ValidateAntiForgeryToken]
         [ActionName(nameof(Delete))]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeletePost(int id)
         {
             var course = await _context.Courses.Include(c => c.CourseCategories).ThenInclude(cc => cc.Category).FirstOrDefaultAsync(c => c.Id == id);

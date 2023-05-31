@@ -10,17 +10,20 @@
             <div class="row">
                 <div class="col-md-8 col-sm-8 col-xs-12">
                     <div class="header-top-left">
-                        <p>HAVE ANY QUESTION ?  @Model["HeaderPhone"]</p>
+                        <p>Phone Number: @Model["HeaderPhone"]</p>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-4 col-xs-12">
-                    <div class="header-top-right text-right">
-                        <ul>
-                            <li><a href="~/assets/login.html">login</a></li>
-                            <li><a href="~/assets/signup.html">signup</a></li>
-                        </ul>
+                @if (!ViewBag.IsLog)
+                {
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="header-top-right text-right">
+                            <ul>
+                                <li><a asp-controller="Account" asp-action="Login">login</a></li>
+                                <li><a asp-controller="Account" asp-action="Register">signup</a></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
+                }
             </div>
         </div>
     </div>
@@ -29,7 +32,7 @@
             <div class="row">
                 <div class="col-md-3 col-sm-3 col-xs-6">
                     <div class="logo">
-                        <a href="~/assets/index.html"><img src="~/assets/img/logo/@Model["HeaderLogo"]" alt="eduhome" /></a>
+                        <a asp-controller="Home" asp-action="Index"><img src="~/assets/img/logo/@Model["HeaderLogo"]" alt="eduhome" /></a>
                     </div>
                 </div>
                 <div class="col-md-9 col-sm-9 col-xs-6">
@@ -51,6 +54,19 @@
                                     <li>
                                         <a asp-controller="Blog" asp-action="Index">blog</a>
                                     </li>
+                                    @if (ViewBag.IsLog)
+                                    {
+                                        <li>
+                                            <a style="color:#ff0055; font-weight:bolder" href="#">@ViewBag.UserName</a>
+                                            <ul>
+                                                @if (!ViewBag.AdminAccess)
+                                                {
+                                                    <li><a asp-area="Admin" asp-controller="Dashboard" asp-action="Index">Admin</a></li>
+                                                }
+                                                <li><a asp-controller="Account" asp-action="Logout">LogOut</a></li>
+                                            </ul>
+                                        </li>
+                                    }
                                 </ul>
                             </nav>
                         </div>

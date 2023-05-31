@@ -26,13 +26,13 @@
                     <div class="single-course mb-70">
                         <div class="course-img">
                             <a asp-action="Detail" asp-route-id="@course.Id">
-                                <img src="~/assets/img/course/@course.Image" alt="course">
+                                <img src="~/assets/img/course/@course.Image" alt="course" style="width:370px; height:250px; object-fit:cover;">
                                 <div class="course-hover">
                                     <i class="fa fa-link"></i>
                                 </div>
                             </a>
                         </div>
-                        <div class="course-content">
+                        <div class="course-content" style="width:370px; height:172px">
                             <h3><a asp-action="Detail" asp-route-id="@course.Id">@course.Name</a></h3>
                             <p>@Html.Raw(@course.Description)</p>
                             <a class="default-btn" asp-action="Detail" asp-route-id="@course.Id">read more</a>
