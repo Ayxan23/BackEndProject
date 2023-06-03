@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using System.Data;
+﻿
 
 namespace BackEndProject.Areas.Admin.Controllers
 {
@@ -68,7 +67,7 @@ namespace BackEndProject.Areas.Admin.Controllers
                 ModelState.AddModelError("Image", "Faylin hecmi 300kb-dan kicik olmalidir.");
                 return View();
             }
-            if (!courseViewModel.Image.CheckFileType(ContentType.image.ToString()))
+            if (!courseViewModel.Image.CheckFileType(ContentTypes.image.ToString()))
             {
                 ModelState.AddModelError("Image", "Faylin tipi image olmalidir.");
                 return View();
@@ -186,7 +185,7 @@ namespace BackEndProject.Areas.Admin.Controllers
                     ModelState.AddModelError("Image", "Faylin hecmi 300kb-dan kicik olmalidir.");
                     return View();
                 }
-                if (!courseViewModel.Image.CheckFileType(ContentType.image.ToString()))
+                if (!courseViewModel.Image.CheckFileType(ContentTypes.image.ToString()))
                 {
                     ModelState.AddModelError("Image", "Faylin tipi image olmalidir.");
                     return View();

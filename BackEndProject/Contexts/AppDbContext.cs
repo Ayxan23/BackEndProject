@@ -21,6 +21,7 @@
         public DbSet<SocialMedia> SocialMedias { get; set; } = null!;
 
         public DbSet<Blog> Blogs { get; set; } = null!;
+        public DbSet<Subscribe> Subscribes { get; set; } = null!;
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {

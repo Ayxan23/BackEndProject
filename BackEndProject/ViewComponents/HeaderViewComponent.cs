@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BackEndProject.ViewModels;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using NuGet.Configuration;
 using System.Data;
 
@@ -7,10 +9,12 @@ namespace BackEndProject.ViewComponents
     public class HeaderViewComponent : ViewComponent
     {
         private readonly AppDbContext _context;
+        private readonly UserManager<AppUser> _userManager;
 
-        public HeaderViewComponent(AppDbContext context)
+        public HeaderViewComponent(AppDbContext context, UserManager<AppUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         public async Task<IViewComponentResult> InvokeAsync()
@@ -19,11 +23,22 @@ namespace BackEndProject.ViewComponents
 
             var userName = HttpContext?.User?.Identity?.Name;
             ViewBag.UserName = userName;
-            var isLog = User.Identity.IsAuthenticated;
-            ViewBag.IsLog = isLog;
-            var adminAccess = User.IsInRole("Member");
-            ViewBag.AdminAccess = adminAccess;
 
+            ViewBag.IsLog = User.Identity.IsAuthenticated;
+
+            ViewBag.AdminAccess = User.IsInRole("Member");
+
+            if (userName != null)
+            {
+                var user = await _userManager.FindByNameAsync(userName);
+                bool userIsActive = !user.IsActive && user != null;
+                ViewBag.UserIsActive = userIsActive;
+            }
+            else
+            {
+                ViewBag.UserIsActive = false;
+            }
+            
             return View(settings);
 
         }

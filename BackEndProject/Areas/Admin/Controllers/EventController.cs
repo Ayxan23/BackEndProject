@@ -1,7 +1,10 @@
 ﻿using BackEndProject.Areas.Admin.ViewModels;
 using BackEndProject.Models;
 using Microsoft.AspNetCore.Authorization;
+using Newtonsoft.Json.Linq;
+using NuGet.Common;
 using System.Data;
+using System.Security.Policy;
 
 namespace BackEndProject.Areas.Admin.Controllers
 {
@@ -42,7 +45,7 @@ namespace BackEndProject.Areas.Admin.Controllers
             if (!ModelState.IsValid)
                 return View();
 
-            if(eventViewModel.StartTime > eventViewModel.EndTime)
+            if (eventViewModel.StartTime > eventViewModel.EndTime)
             {
                 ModelState.AddModelError("StartTime", "StartTime EndTime'dan kicik olmalidir");
                 ModelState.AddModelError("EndTime", "EndTime StartTime'dan boyuk olmalidir");
@@ -77,7 +80,7 @@ namespace BackEndProject.Areas.Admin.Controllers
                 ModelState.AddModelError("Image", "Faylin hecmi 300kb-dan kicik olmalidir.");
                 return View();
             }
-            if (!eventViewModel.Image.CheckFileType(ContentType.image.ToString()))
+            if (!eventViewModel.Image.CheckFileType(ContentTypes.image.ToString()))
             {
                 ModelState.AddModelError("Image", "Faylin tipi image olmalidir.");
                 return View();
@@ -115,6 +118,21 @@ namespace BackEndProject.Areas.Admin.Controllers
 
             await _context.Events.AddAsync(newEvent);
             await _context.SaveChangesAsync();
+
+            var foundEvent = await _context.Events.FirstOrDefaultAsync(e => e.Name == newEvent.Name);
+            var subscribes = await _context.Subscribes.ToListAsync();
+            string? url = Url.Action("Detail", "Event", new { foundEvent.Id }, HttpContext.Request.Scheme).Replace("Admin/", "");
+            EmailHelper emailHelper = new();
+            foreach (var subscribe in subscribes)
+            {
+                MailRequestViewModel mailRequestViewModel = new()
+                {
+                    ToEmail = subscribe.Email,
+                    Subject = "New event created",
+                    Body = $"<h3 style='color:#ff0055'>Event name:{newEvent.Name}, has been created <a href ='{url}'>Link</a></h3>"
+                };
+                await emailHelper.SendEmailAsync(mailRequestViewModel);
+            }
 
             return RedirectToAction(nameof(Index));
         }
@@ -187,7 +205,7 @@ namespace BackEndProject.Areas.Admin.Controllers
                     ModelState.AddModelError("Image", "Faylin hecmi 300kb-dan kicik olmalidir.");
                     return View();
                 }
-                if (!eventViewModel.Image.CheckFileType(ContentType.image.ToString()))
+                if (!eventViewModel.Image.CheckFileType(ContentTypes.image.ToString()))
                 {
                     ModelState.AddModelError("Image", "Faylin tipi image olmalidir.");
                     return View();

@@ -47,7 +47,7 @@ namespace BackEndProject.Areas.Admin.Controllers
                 ModelState.AddModelError("Image", "Faylin hecmi 300kb-dan kicik olmalidir.");
                 return View();
             }
-            if (!blogViewModel.Image.CheckFileType(ContentType.image.ToString()))
+            if (!blogViewModel.Image.CheckFileType(ContentTypes.image.ToString()))
             {
                 ModelState.AddModelError("Image", "Faylin tipi image olmalidir.");
                 return View();
@@ -60,12 +60,13 @@ namespace BackEndProject.Areas.Admin.Controllers
                 await blogViewModel.Image.CopyToAsync(stream);
             }
 
+            var userName = HttpContext?.User?.Identity?.Name;
             Blog Blog = new()
             {
                 Name = blogViewModel.Name,
                 Description = blogViewModel.Description,
                 Image = fileName,
-                CreatedBy = "Ayxan",
+                CreatedBy = userName,
                 IsDeleted = false
             };
 
@@ -121,7 +122,7 @@ namespace BackEndProject.Areas.Admin.Controllers
                     ModelState.AddModelError("Image", "Faylin hecmi 300kb-dan kicik olmalidir.");
                     return View();
                 }
-                if (!blogViewModel.Image.CheckFileType(ContentType.image.ToString()))
+                if (!blogViewModel.Image.CheckFileType(ContentTypes.image.ToString()))
                 {
                     ModelState.AddModelError("Image", "Faylin tipi image olmalidir.");
                     return View();

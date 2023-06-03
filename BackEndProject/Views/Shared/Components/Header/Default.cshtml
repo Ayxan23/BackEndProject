@@ -5,79 +5,90 @@
 
 <!-- Header Area Start -->
 <header class="top">
-    <div class="header-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-sm-8 col-xs-12">
-                    <div class="header-top-left">
-                        <p>Phone Number: @Model["HeaderPhone"]</p>
-                    </div>
-                </div>
-                @if (!ViewBag.IsLog)
-                {
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="header-top-right text-right">
-                            <ul>
-                                <li><a asp-controller="Account" asp-action="Login">login</a></li>
-                                <li><a asp-controller="Account" asp-action="Register">signup</a></li>
-                            </ul>
+    @if (ViewBag.UserIsActive)
+    {
+        <div style="display:flex; width:100%; height:100vh; justify-content:center; align-items:center; font-size:60px; font-weight:bolder; position:fixed; top:0px; z-index:10; background-color:white">
+            <nav>
+                <ul><li><a asp-controller="Account" asp-action="Logout">LogOut</a></li></ul>
+            </nav>
+        </div>
+    }
+    else
+    {
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-8 col-xs-12">
+                        <div class="header-top-left">
+                            <p>Phone Number: @Model["HeaderPhone"]</p>
                         </div>
                     </div>
-                }
-            </div>
-        </div>
-    </div>
-    <div class="header-area two header-sticky">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-3 col-xs-6">
-                    <div class="logo">
-                        <a asp-controller="Home" asp-action="Index"><img src="~/assets/img/logo/@Model["HeaderLogo"]" alt="eduhome" /></a>
-                    </div>
-                </div>
-                <div class="col-md-9 col-sm-9 col-xs-6">
-                    <div class="content-wrapper text-right">
-                        <!-- Main Menu Start -->
-                        <div class="main-menu" style="display:flex; align-items:center; justify-content:center;">
-                            <nav>
-                                <ul style="display:flex; gap:30px; margin-right:100px">
-                                    <li><a asp-controller="Home" asp-action="Index">Home</a></li>
-                                    <li>
-                                        <a asp-controller="Course" asp-action="Index">courses</a>
-                                    </li>
-                                    <li>
-                                        <a asp-controller="Event" asp-action="Index">event</a>
-                                    </li>
-                                    <li>
-                                        <a asp-controller="Teacher" asp-action="Index">teacher</a>
-                                    </li>
-                                    <li>
-                                        <a asp-controller="Blog" asp-action="Index">blog</a>
-                                    </li>
-                                    @if (ViewBag.IsLog)
-                                    {
-                                        <li>
-                                            <a style="color:#ff0055; font-weight:bolder" href="#">@ViewBag.UserName</a>
-                                            <ul>
-                                                @if (!ViewBag.AdminAccess)
-                                                {
-                                                    <li><a asp-area="Admin" asp-controller="Dashboard" asp-action="Index">Admin</a></li>
-                                                }
-                                                <li><a asp-controller="Account" asp-action="Logout">LogOut</a></li>
-                                            </ul>
-                                        </li>
-                                    }
+                    @if (!ViewBag.IsLog)
+                    {
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <div class="header-top-right text-right">
+                                <ul>
+                                    <li><a asp-controller="Account" asp-action="Login">login</a></li>
+                                    <li><a asp-controller="Account" asp-action="Register">signup</a></li>
                                 </ul>
-                            </nav>
+                            </div>
                         </div>
-                        <!-- Main Menu End -->
-                    </div>
-                </div>
-                <div class="col-xs-12">
-                    <div class="mobile-menu hidden-lg hidden-md hidden-sm"></div>
+                    }
                 </div>
             </div>
         </div>
-    </div>
+        <div class="header-area two header-sticky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                        <div class="logo">
+                            <a asp-controller="Home" asp-action="Index"><img src="~/assets/img/logo/@Model["HeaderLogo"]" alt="eduhome" /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-9 col-xs-6">
+                        <div class="content-wrapper text-right">
+                            <!-- Main Menu Start -->
+                            <div class="main-menu" style="display:flex; align-items:center; justify-content:center;">
+                                <nav>
+                                    <ul style="display:flex; gap:30px; margin-right:100px">
+                                        <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                                        <li>
+                                            <a asp-controller="Course" asp-action="Index">courses</a>
+                                        </li>
+                                        <li>
+                                            <a asp-controller="Event" asp-action="Index">event</a>
+                                        </li>
+                                        <li>
+                                            <a asp-controller="Teacher" asp-action="Index">teacher</a>
+                                        </li>
+                                        <li>
+                                            <a asp-controller="Blog" asp-action="Index">blog</a>
+                                        </li>
+                                        @if (ViewBag.IsLog)
+                                        {
+                                            <li>
+                                                <a style="color:#ff0055; font-weight:bolder" href="#">@ViewBag.UserName</a>
+                                                <ul>
+                                                    @if (!ViewBag.AdminAccess)
+                                                    {
+                                                        <li><a asp-area="Admin" asp-controller="Dashboard" asp-action="Index">Admin</a></li>
+                                                    }
+                                                    <li><a asp-controller="Account" asp-action="Logout">LogOut</a></li>
+                                                </ul>
+                                            </li>
+                                        }
+                                    </ul>
+                                </nav>
+                            </div>
+                            <!-- Main Menu End -->
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="mobile-menu hidden-lg hidden-md hidden-sm"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
 </header>
 <!-- Header Area End -->

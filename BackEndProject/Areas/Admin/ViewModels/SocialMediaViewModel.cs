@@ -3,7 +3,7 @@
     public class SocialMediaViewModel
     {
         public int Id { get; set; }
-        [Required]
+        [Required, MaxLength(100)]
         public string ClassName { get; set; }
         [Required, DataType(DataType.Url)]
         public string Link { get; set; }

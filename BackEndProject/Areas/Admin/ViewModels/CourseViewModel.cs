@@ -14,9 +14,9 @@
         public int Duration { get; set; }
         [Required]
         public int ClassDuration { get; set; }
-        [Required]
+        [Required, MaxLength(100)]
         public string SkillLevel { get; set; }
-        [Required]
+        [Required, MaxLength(100)]
         public string Language { get; set; }
         [Required]
         public int Students { get; set; }

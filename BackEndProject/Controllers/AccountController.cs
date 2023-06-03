@@ -1,4 +1,6 @@
-﻿namespace BackEndProject.Controllers
+﻿using BackEndProject.ViewModels;
+
+namespace BackEndProject.Controllers
 {
     public class AccountController : Controller
     {
@@ -39,6 +41,7 @@
                 Email = registerViewModel.Email,
                 UserName = registerViewModel.Username,
                 IsActive = true,
+                EmailConfirmed = false,
             };
 
             var identityResult = await _userManager.CreateAsync(newUser, registerViewModel.Password);
@@ -53,7 +56,35 @@
 
             await _userManager.AddToRoleAsync(newUser, RoleType.Member.ToString());
 
-            return RedirectToAction(nameof(Login)); 
+            string token = await _userManager.GeneratePasswordResetTokenAsync(newUser);
+            string? url = Url.Action("ConfirmEmail", "Account", new { userId = newUser.Id, token }, HttpContext.Request.Scheme);
+            EmailHelper emailHelper = new();
+            MailRequestViewModel mailRequestViewModel = new()
+            {
+                ToEmail = newUser.Email,
+                Subject = "Confirm Email",
+                Body = $"<a href='{url}'>Confirm Email</a>"
+            };
+            await emailHelper.SendEmailAsync(mailRequestViewModel);
+
+            return RedirectToAction(nameof(Login));
+        }
+
+        public async Task<IActionResult> ConfirmEmail(string? userId, string? token)
+        {
+            if (User.Identity.IsAuthenticated)
+                return BadRequest();
+
+            if (string.IsNullOrWhiteSpace(userId) || string.IsNullOrWhiteSpace(token))
+                return BadRequest();
+
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user is null)
+                return NotFound();
+
+            user.EmailConfirmed = true;
+            await _userManager.UpdateAsync(user);
+            return RedirectToAction(nameof(Login));
         }
 
         public IActionResult Login()
@@ -78,6 +109,16 @@
             if (user is null)
             {
                 ModelState.AddModelError("", "Username or password invalid");
+                return View();
+            }
+            if (!user.EmailConfirmed)
+            {
+                ModelState.AddModelError("", "Your email is not confirmed");
+                return View();
+            }
+            if (!user.IsActive)
+            {
+                ModelState.AddModelError("", "Your account is blocked");
                 return View();
             }
 
@@ -114,6 +155,115 @@
             }
 
             return RedirectToAction("Index", "Home");
+        }
+
+        public IActionResult ForgotPassword()
+        {
+            if (User.Identity.IsAuthenticated)
+                return BadRequest();
+
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ForgotPassword(ForgotPasswordViewModel forgotPasswordViewModel)
+        {
+            if (User.Identity.IsAuthenticated)
+                return BadRequest();
+
+            if (!ModelState.IsValid)
+                return View();
+
+            var user = await _userManager.FindByEmailAsync(forgotPasswordViewModel.Email);
+            if (user is null)
+            {
+                ModelState.AddModelError("Email", $"User not found by email: {forgotPasswordViewModel.Email}");
+                return View();
+            }
+            if (!user.IsActive)
+            {
+                ModelState.AddModelError("", "Your account is blocked");
+                return View();
+            }
+
+            string token = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+            string? url = Url.Action("ResetPassword", "Account", new { userId = user.Id, token }, HttpContext.Request.Scheme);
+
+            EmailHelper emailHelper = new();
+
+            string body = await GetEmailTemplateAsync(url);
+
+            MailRequestViewModel mailRequestViewModel = new()
+            {
+                ToEmail = user.Email,
+                Subject = "Reset your password",
+                Body = body
+            };
+
+            await emailHelper.SendEmailAsync(mailRequestViewModel);
+
+            return RedirectToAction(nameof(Login));
+        }
+
+        public async Task<IActionResult> ResetPassword(ResetPasswordViewModel resetPasswordViewModel)
+        {
+            if (User.Identity.IsAuthenticated)
+                return BadRequest();
+
+            if (string.IsNullOrWhiteSpace(resetPasswordViewModel.UserId) || string.IsNullOrWhiteSpace(resetPasswordViewModel.Token))
+                return BadRequest();
+
+            var user = await _userManager.FindByIdAsync(resetPasswordViewModel.UserId);
+            if (user is null)
+                return NotFound();
+
+            ViewBag.UserName = user.UserName;
+
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ResetPassword(ChangePasswordViewModel changePasswordViewModel, string? userId, string? token)
+        {
+            if (User.Identity.IsAuthenticated)
+                return BadRequest();
+
+            if (!ModelState.IsValid)
+                return View();
+
+            if (string.IsNullOrWhiteSpace(userId) || string.IsNullOrWhiteSpace(token))
+                return BadRequest();
+
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user is null)
+                return NotFound();
+
+            var identityResult = await _userManager.ResetPasswordAsync(user, token, changePasswordViewModel.Password);
+            if (!identityResult.Succeeded)
+            {
+                foreach (var error in identityResult.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+                return View();
+            }
+
+            return RedirectToAction(nameof(Login));
+        }
+
+        private async Task<string> GetEmailTemplateAsync(string url)
+        {
+            string path = Path.Combine(_webHostEnvironment.WebRootPath, "assets", "templates", "template.html");
+
+            using StreamReader streamReader = new(path);
+            string result = await streamReader.ReadToEndAsync();
+
+            result = result.Replace("[reset_password_url]", url);
+            streamReader.Close();
+            return result;
         }
     }
 }

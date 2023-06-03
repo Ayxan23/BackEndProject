@@ -3,9 +3,9 @@
     public class Setting
     {
         public int Id { get; set; }
-        [Required]
+        [Required, MaxLength(100)]
         public string Key { get; set; }
-        [Required]
+        [Required, MaxLength(100)]
         public string Value { get; set; }
     }
 }

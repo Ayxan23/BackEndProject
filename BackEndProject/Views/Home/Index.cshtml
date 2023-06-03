@@ -1,4 +1,5 @@
-﻿@{
+﻿@model HomeViewModel
+@{
     ViewData["Title"] = "Home";
 }
 <!-- Background Area Start -->
@@ -13,7 +14,7 @@
                         <div class="col-md-10 col-md-offset-1">
                             <div class="slide-content-wrapper">
                                 <div class="slide-content text-center">
-                                    <h2>EDUCATION MAKES HUMANITY </h2>
+                                    <h2>EDUCATION MAKES HUMANITY</h2>
                                     <p>I must explain to you how all this mistaken idea of denouncing pleasure and prsing pain was born and I will give you a complete account of the system  </p>
                                     <a class="default-btn" href="~/assets/about.html">Learn more</a>
                                 </div>
@@ -103,57 +104,27 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="single-course">
-                    <div class="course-img">
-                        <a href="~/assets/course-details.html">
-                            <img src="~/assets/img/course/course1.jpg" alt="course">
-                            <div class="course-hover">
-                                <i class="fa fa-link"></i>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="course-content">
-                        <h3><a href="~/assets/course-details.html">CSE ENGINEERING</a></h3>
-                        <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness</p>
-                        <a class="default-btn" href="~/assets/course-details.html">read more</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="single-course">
-                    <div class="course-img">
-                        <a href="~/assets/course-details.html">
-                            <img src="~/assets/img/course/course2.jpg" alt="course">
-                            <div class="course-hover">
-                                <i class="fa fa-link"></i>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="course-content">
-                        <h3><a href="~/assets/course-details.html">political science</a></h3>
-                        <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness</p>
-                        <a class="default-btn" href="~/assets/course-details.html">read more</a>
+            @foreach (var course in Model.Courses)
+            {
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-course">
+                        <div class="course-img">
+                            <a asp-action="Detail" asp-controller="Course" asp-route-id="@course.Id">
+                                <img style="width:370px; height:249px; object-fit:cover" src="~/assets/img/course/@course.Image" alt="course">
+                                <div class="course-hover">
+                                    <i class="fa fa-link"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="course-content" style="width:370px; height:220px">
+                            <h3><a asp-action="Detail" asp-controller="Course" asp-route-id="@course.Id">@course.Name</a></h3>
+                            <h4 style ="height:70px; margin-bottom:15px; overflow:hidden; font-weight:500">@Html.Raw(course.Description)</h4>
+                            <a class="default-btn" asp-action="Detail" asp-controller="Course" asp-route-id="@course.Id">read more</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4 hidden-sm col-xs-12">
-                <div class="single-course">
-                    <div class="course-img">
-                        <a href="~/assets/course-details.html">
-                            <img src="~/assets/img/course/course3.jpg" alt="course">
-                            <div class="course-hover">
-                                <i class="fa fa-link"></i>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="course-content">
-                        <h3><a href="~/assets/course-details.html">micro biology</a></h3>
-                        <p>I must explain to you how all this a mistaken idea of denouncing great explorer of the rut the is lder of human happiness</p>
-                        <a class="default-btn" href="~/assets/course-details.html">read more</a>
-                    </div>
-                </div>
-            </div>
+            }
+
         </div>
     </div>
 </div>
@@ -170,74 +141,27 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-12">
-                <div class="single-event mb-35">
-                    <div class="event-img">
-                        <a href="~/assets/event-details.html"><img src="~/assets/img/event/event1.jpg" alt="event"></a>
-                    </div>
-                    <div class="event-content text-left">
-                        <h3>20 June 2017</h3>
-                        <h4><a href="~/assets/event-details.html">ADVANCE PHP WORKSHOP</a></h4>
-                        <ul>
-                            <li><i class="fa fa-clock-o"></i>9.00 AM - 4.45 PM</li>
-                            <li><i class="fa fa-map-marker"></i>New Yourk City</li>
-                        </ul>
-                        <div class="event-content-right">
-                            <a class="default-btn" href="~/assets/event-details.html">join now</a>
+            @foreach (var eventItem in Model.Events)
+            {
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="single-event mb-35">
+                        <div class="event-img">
+                            <a asp-action="Detail" asp-controller="Event" asp-route-id="@eventItem.Id"><img style="width:210px; height:191px; object-fit:cover" src="~/assets/img/event/@eventItem.Image" alt="event"></a>
+                        </div>
+                        <div class="event-content text-left" style="height:191px;">
+                            <h3>@eventItem.StartTime.ToString("dd MMMM, yyy")</h3>
+                            <h4><a asp-action="Detail" asp-controller="Event" asp-route-id="@eventItem.Id">@eventItem.Name</a></h4>
+                            <ul>
+                                <li><i class="fa fa-clock-o"></i>@eventItem.StartTime.ToString("HH:mm tt") - @eventItem.EndTime.ToString("HH:mm tt")</li>
+                                <li><i class="fa fa-map-marker"></i>@eventItem.Venue</li>
+                            </ul>
+                            <div class="event-content-right">
+                                <a class="default-btn" asp-action="Detail" asp-controller="Event" asp-route-id="@eventItem.Id">join now</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="single-event hidden-sm hidden-xs">
-                    <div class="event-img">
-                        <a href="~/assets/event-details.html"><img src="~/assets/img/event/event3.jpg" alt="event"></a>
-                    </div>
-                    <div class="event-content text-left">
-                        <h3>16 June 2017</h3>
-                        <h4><a href="~/assets/event-details.html">learning english history</a></h4>
-                        <ul>
-                            <li><i class="fa fa-clock-o"></i>9.00 AM - 4.45 PM</li>
-                            <li><i class="fa fa-map-marker"></i>New Yourk City</li>
-                        </ul>
-                        <div class="event-content-right">
-                            <a class="default-btn" href="~/assets/event-details.html">join now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-12">
-                <div class="single-event mb-35">
-                    <div class="event-img">
-                        <a href="~/assets/event-details.html"><img src="~/assets/img/event/event2.jpg" alt="event"></a>
-                    </div>
-                    <div class="event-content text-left">
-                        <h3>18 June 2017</h3>
-                        <h4><a href="~/assets/event-details.html">DIGITAL MARKETING ANALYSIS</a></h4>
-                        <ul>
-                            <li><i class="fa fa-clock-o"></i>9.00 AM - 4.45 PM</li>
-                            <li><i class="fa fa-map-marker"></i>New Yourk City</li>
-                        </ul>
-                        <div class="event-content-right">
-                            <a class="default-btn" href="~/assets/event-details.html">join now</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="single-event hidden-sm hidden-xs">
-                    <div class="event-img">
-                        <a href="~/assets/event-details.html"><img src="~/assets/img/event/event3.jpg" alt="event"></a>
-                    </div>
-                    <div class="event-content text-left">
-                        <h3>14 June 2017</h3>
-                        <h4><a href="~/assets/event-details.html">UI & UX DESIGNER MEETUP</a></h4>
-                        <ul>
-                            <li><i class="fa fa-clock-o"></i>9.00 AM - 4.45 PM</li>
-                            <li><i class="fa fa-map-marker"></i>New Yourk City</li>
-                        </ul>
-                        <div class="event-content-right">
-                            <a class="default-btn" href="~/assets/event-details.html">join now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            }
         </div>
     </div>
 </div>
@@ -254,64 +178,61 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12">
+            @foreach (var blog in Model.Blogs)
+            {                
+               <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="single-blog">
                     <div class="blog-img">
-                        <a href="~/assets/blog-details.html"><img src="~/assets/img/blog/blog1.jpg" alt="blog"></a>
+                            <a asp-action="Detail" asp-controller="Blog" asp-route-id="@blog.Id"><img style="width:370px; height:249px; object-fit:cover" src="~/assets/img/blog/@blog.Image" alt="blog"></a>
                         <div class="blog-hover">
-                            <a href="~/assets/blog-details.html"><i class="fa fa-link"></i></a>
+                            <a asp-action="Detail" asp-controller="Blog" asp-route-id="@blog.Id"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                     <div class="blog-content">
-                        <div class="blog-top">
-                            <p>By Alex  /  June 20, 2017  /  <i class="fa fa-comments-o"></i> 4</p>
+                            <div class="blog-top" style="width:370px; height:50px;">
+                                <p>By @blog.CreatedBy  /  @blog.CreatedAt.ToString("MMMM dd, yyy")</p>
                         </div>
-                        <div class="blog-bottom">
-                            <h2><a href="~/assets/blog-details.html">I must explain to you how all this a mistaken idea </a></h2>
+                            <div class="blog-bottom" style="width:370px; height:137px;">
+                                <h2 style="height:50px; overflow:hidden"><a asp-action="Detail" asp-controller="Blog" asp-route-id="@blog.Id">@Html.Raw(blog.Description)</a></h2>
                             <a href="~/assets/blog-details.html">read more</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="single-blog">
-                    <div class="blog-img">
-                        <a href="~/assets/blog-details.html"><img src="~/assets/img/blog/blog2.jpg" alt="blog"></a>
-                        <div class="blog-hover">
-                            <a href="~/assets/blog-details.html"><i class="fa fa-link"></i></a>
-                        </div>
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-top">
-                            <p>By Alex  /  June 20, 2017  /  <i class="fa fa-comments-o"></i> 4</p>
-                        </div>
-                        <div class="blog-bottom">
-                            <h2><a href="~/assets/blog-details.html">I must explain to you how all this a mistaken idea </a></h2>
-                            <a href="~/assets/blog-details.html">read more</a>
-                        </div>
-                    </div>
+            }
+        </div>
+    </div>
+</div>
+<!-- Blog Area End -->
+<!-- Subscribe Start -->
+<div class="subscribe-area pt-60 pb-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="subscribe-content section-title text-center">
+                    <h2>subscribe</h2>
+                    <p>We will send you an e-mail when we have a new event</p>
                 </div>
-            </div>
-            <div class="col-md-4 hidden-sm col-xs-12">
-                <div class="single-blog">
-                    <div class="blog-img">
-                        <a href="~/assets/blog-details.html"><img src="~/assets/img/blog/blog3.jpg" alt="blog"></a>
-                        <div class="blog-hover">
-                            <a href="~/assets/blog-details.html"><i class="fa fa-link"></i></a>
+                <div class="newsletter-form mc_embed_signup">
+                    <form method="post">
+                        <div>
+                            @if (!ViewBag.IsLog)
+                            {
+                                <input asp-for="SubscribeViewModel.Email" class="email" placeholder="Enter your e-mail address">
+                                <button class="default-btn" type="submit">subscribe</button>
+
+                            }
+                            else
+                            {
+                                <button style="margin-right:310px;" class="default-btn" type="submit">subscribe</button>
+                            }
                         </div>
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-top">
-                            <p>By Alex  /  June 20, 2017  /  <i class="fa fa-comments-o"></i> 4</p>
-                        </div>
-                        <div class="blog-bottom">
-                            <h2><a href="~/assets/blog-details.html">I must explain to you how all this a mistaken idea </a></h2>
-                            <a href="~/assets/blog-details.html">read more</a>
-                        </div>
-                    </div>
+                        <span asp-validation-for="SubscribeViewModel.Email" class="text-danger"></span>
+                    </form>
+                    <!-- mailchimp-alerts Start -->
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- Blog Area End -->
+<!-- Subscribe End -->

@@ -3,7 +3,7 @@
     public class SkillViewModel
     {
         public int Id { get; set; }
-        [Required]
+        [Required, MaxLength(100)]
         public string Name { get; set; }
         [Required, Range(0, 100)]
         public byte Rate { get; set; }

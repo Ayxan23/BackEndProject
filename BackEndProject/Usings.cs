@@ -12,6 +12,15 @@ global using BackEndProject.Utils;
 global using Microsoft.AspNetCore.Mvc;
 global using BackEndProject.Utils.Enums;
 global using BackEndProject.ViewModels;
+global using MimeKit;
+global using MailKit.Security;
+global using Microsoft.VisualBasic;
+global using Constants = BackEndProject.Utils.Constants;
+global using Microsoft.AspNetCore.Authorization;
+global using System.Data;
+
+
+
 
 
 

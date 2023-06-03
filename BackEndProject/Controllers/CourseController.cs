@@ -13,7 +13,7 @@ namespace BackEndProject.Controllers
 
         public async Task<IActionResult> Index(string? search, int? categoryId)
         {
-            var courses = await _context.Courses.Include(c => c.CourseCategories).ThenInclude(cc => cc.Category).OrderByDescending(c => c.ModifiedAt).ToListAsync();
+            var courses = await _context.Courses.Include(c => c.CourseCategories).ThenInclude(cc => cc.Category).OrderByDescending(c => c.ModifiedAt).Take(6).ToListAsync();
 
             if (categoryId != null)
             {
@@ -23,6 +23,8 @@ namespace BackEndProject.Controllers
             {
                 courses = await _context.Courses.Where(c => c.Name.Contains(search)).OrderByDescending(c => c.ModifiedAt).ToListAsync();
             }
+
+            ViewBag.CoursesCount = _context.Courses.Count();
 
             return View(courses);
         }
@@ -45,5 +47,11 @@ namespace BackEndProject.Controllers
             return View(courseCategoryViewModel);
         }
 
+        public async Task<IActionResult> LoadMore(int skip)
+        {
+            var courses = await _context.Courses.Include(c => c.CourseCategories).ThenInclude(cc => cc.Category).OrderByDescending(c => c.ModifiedAt).Skip(skip).Take(6).ToListAsync();
+
+            return PartialView("_CoursePartial", courses);
+        }
     }
 }
