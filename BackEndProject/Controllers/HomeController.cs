@@ -40,12 +40,9 @@ namespace BackEndProject.Controllers
         public async Task<IActionResult> Index(HomeViewModel homeViewModel)
         {
             ViewBag.IsLog = User.Identity.IsAuthenticated;
-            var courses = await _context.Courses.OrderByDescending(c => c.ModifiedAt).Take(3).ToListAsync();
-            var events = await _context.Events.OrderByDescending(e => e.StartTime).Take(4).ToListAsync();
-            var blogs = await _context.Blogs.OrderByDescending(b => b.CreatedAt).Take(3).ToListAsync();
-            homeViewModel.Courses = courses;
-            homeViewModel.Events = events;
-            homeViewModel.Blogs = blogs;
+            homeViewModel.Courses = await _context.Courses.OrderByDescending(c => c.ModifiedAt).Take(3).ToListAsync();
+            homeViewModel.Events = await _context.Events.OrderByDescending(e => e.StartTime).Take(4).ToListAsync();
+            homeViewModel.Blogs = await _context.Blogs.OrderByDescending(b => b.CreatedAt).Take(3).ToListAsync();
 
             if (!ModelState.IsValid && !User.Identity.IsAuthenticated)
                 return View(homeViewModel);
