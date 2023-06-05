@@ -17,7 +17,7 @@ namespace BackEndProject.Controllers
             _userManager = userManager;
         }
 
-        public async Task<IActionResult> IndexAsync()
+        public async Task<IActionResult> Index()
         {
             ViewBag.IsLog = User.Identity.IsAuthenticated;
 
@@ -40,9 +40,15 @@ namespace BackEndProject.Controllers
         public async Task<IActionResult> Index(HomeViewModel homeViewModel)
         {
             ViewBag.IsLog = User.Identity.IsAuthenticated;
+            var courses = await _context.Courses.OrderByDescending(c => c.ModifiedAt).Take(3).ToListAsync();
+            var events = await _context.Events.OrderByDescending(e => e.StartTime).Take(4).ToListAsync();
+            var blogs = await _context.Blogs.OrderByDescending(b => b.CreatedAt).Take(3).ToListAsync();
+            homeViewModel.Courses = courses;
+            homeViewModel.Events = events;
+            homeViewModel.Blogs = blogs;
 
-            if (!ModelState.IsValid)
-                return View();    
+            if (!ModelState.IsValid && !User.Identity.IsAuthenticated)
+                return View(homeViewModel);
 
             Subscribe subscribe = new();
             var userName = HttpContext?.User?.Identity?.Name;
@@ -54,8 +60,8 @@ namespace BackEndProject.Controllers
             }
             else if (homeViewModel.SubscribeViewModel.Email == null)
             {
-                ModelState.AddModelError("Email", "The Email field is required");
-                return View();
+                ModelState.AddModelError("SubscribeViewModel.Email", "The Email field is required");
+                return View(homeViewModel);
             }
             else
             {
@@ -64,14 +70,15 @@ namespace BackEndProject.Controllers
 
             if (await _context.Subscribes.AnyAsync(s => s.Email == subscribe.Email))
             {
-                ModelState.AddModelError("Email", "This Email already exist");
-                return View();
+                ModelState.AddModelError("SubscribeViewModel.Email", "This Email already exist");
+                return View(homeViewModel);
             }
 
             await _context.Subscribes.AddAsync(subscribe);
             await _context.SaveChangesAsync();
 
-            return View();
+            return View(homeViewModel);
         }
     }
+    
 }
